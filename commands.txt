@@ -1,4 +1,0 @@
-setenv mmc_part 1:7
-setenv root /dev/mmcblk1p7
-setenv mmcargs 'setenv bootargs console=${console} root=${root} ${mount_type} rootfstype=ext3 rootwait ${config_extra} init=/bin/sh'
-setenv mount_type rw
