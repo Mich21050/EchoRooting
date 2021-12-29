@@ -1,0 +1,19 @@
+#activate led ring
+dbus-send --system --dest=com.doppler.ledd --type=method_call --print-reply /com/doppler/ledd com.doppler.ledd.setPatternStr string:'off'
+# options:
+# active-start
+# off
+# wait
+# solid_green, solid_blue, solid_red
+# dir for animations: /usr/local/etc/ledd (maybe custom animations?)
+
+#signal sender=:1.3 -> dest=(null destination) serial=84 path=/default; interface=com.doppler.buttond; member=button
+#   string "uber"
+#   int32 1
+#signal sender=:1.3 -> dest=(null destination) serial=85 path=/default; interface=com.doppler.buttond; member=button
+#   string "uber"
+#   int32 2
+#signal sender=:1.3 -> dest=(null destination) serial=86 path=/default; interface=com.doppler.buttond; member=button
+#   string "uber"
+#   int32 3
+dbus-send --system --type=signal /com/doppler/buttond com.doppler.buttond.button string:'uber' int32:1; dbus-send --system --type=signal /com/doppler/buttond com.doppler.buttond.button string:'uber' int32:2; dbus-send --system --type=signal /com/doppler/buttond com.doppler.buttond.button string:'uber' int32:3
