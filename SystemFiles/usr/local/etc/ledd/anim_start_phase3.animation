@@ -1,0 +1,14 @@
+loop
+88:0ff,0ff,0ff,0ff,0ff,0ff,0ff,0ff,0ff,00f,00f,00f
+88:00f,0ff,0ff,0ff,0ff,0ff,0ff,0ff,0ff,0ff,00f,00f
+88:00f,00f,0ff,0ff,0ff,0ff,0ff,0ff,0ff,0ff,0ff,00f
+88:00f,00f,00f,0ff,0ff,0ff,0ff,0ff,0ff,0ff,0ff,0ff
+88:0ff,00f,00f,00f,0ff,0ff,0ff,0ff,0ff,0ff,0ff,0ff
+88:0ff,0ff,00f,00f,00f,0ff,0ff,0ff,0ff,0ff,0ff,0ff
+88:0ff,0ff,0ff,00f,00f,00f,0ff,0ff,0ff,0ff,0ff,0ff
+88:0ff,0ff,0ff,0ff,00f,00f,00f,0ff,0ff,0ff,0ff,0ff
+88:0ff,0ff,0ff,0ff,0ff,00f,00f,00f,0ff,0ff,0ff,0ff
+88:0ff,0ff,0ff,0ff,0ff,0ff,00f,00f,00f,0ff,0ff,0ff
+88:0ff,0ff,0ff,0ff,0ff,0ff,0ff,00f,00f,00f,0ff,0ff
+88:0ff,0ff,0ff,0ff,0ff,0ff,0ff,0ff,00f,00f,00f,0ff
+

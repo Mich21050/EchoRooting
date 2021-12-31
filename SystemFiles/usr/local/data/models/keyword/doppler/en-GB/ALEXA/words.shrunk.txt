@@ -1,0 +1,3 @@
+<eps>    0
+ALEXA    169
+STOP    184

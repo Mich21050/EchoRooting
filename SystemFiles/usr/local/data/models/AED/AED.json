@@ -1,0 +1,49 @@
+{
+    "configuration": {
+        "num_detection_types" : 3,
+        "acoustic_event": [{
+            "name": "humanPresence",
+            "score_output_index": 0,
+            "score_detection_threshold": 1.1,
+            "score_near_miss_threshold": 1.1,
+            "confidence_score_scale_factor": 1,
+            "energy_threshold": 82,
+            "energy_min_num_samples": 1
+        },
+        {
+            "name": "smokeAlarm",
+            "score_output_index": 1,
+            "score_detection_threshold": 0.85,
+            "score_near_miss_threshold": 0.30,
+            "confidence_score_scale_factor": 1,
+            "energy_threshold": 0,
+            "energy_min_num_samples": 0
+        },
+        {
+            "name": "glassBreak",
+            "score_output_index": 2,
+            "score_detection_threshold": 0.8,
+            "score_near_miss_threshold": 0.1,
+            "confidence_score_scale_factor": 1,
+            "energy_threshold": 0,
+            "energy_min_num_samples": 0
+        }]
+    },
+    "result_emission": {
+        "metrics_event_period_msec": 3600000,
+        "regular_event_period_msec": 9980,
+        "cloud_json_header": "amzn1.activity.device.detection.audio.aed"
+    },
+    "score_tracking": {
+        "histogram": {
+            "max": 1,
+            "min": 0,
+            "size": 20
+        },
+        "temporal": {
+            "bucket_count": 20
+        }
+    },
+    "object_type_name": "acoustic_event_detection_config",
+    "object_type_version": 1
+}

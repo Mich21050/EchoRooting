@@ -1,0 +1,60 @@
+{
+    "devices" : [
+        {
+            "deviceName" : "Button_GPIO",
+            "buttonInterfaceType" : "GPIO",
+            "inputDevice" : "/dev/input/event0",
+            "buttonMapping" : [
+                {
+                    "buttonName" : "uber",
+                    "inputEventType" : "EV_KEY",
+                    "keyCode" : 138,
+                    "states" : {
+                        "down" : 0,
+                        "up": 1
+                    }
+                },
+                {
+                    "buttonName" : "mute",
+                    "inputEventType" : "EV_KEY",
+                    "keyCode" : 113,
+                    "states" : {
+                        "enabled" : 0,
+                        "disabled" : 1
+                    },
+                    "isStateful" : true,
+                    "defaultState" : "disabled",
+                    "GPIOHWControl" : {
+                        "enabled" : 195,
+                        "disabled" : 193
+                    }
+                },
+                {
+                    "buttonName" : "factoryReset",
+                    "inputEventType" : "EV_KEY",
+                    "keyCode" : 355,
+                    "states" : {
+                        "down" : 0,
+                        "up": 1
+                    }
+                }
+            ]
+        },
+        {
+            "deviceName" : "Rotary_GPIO",
+            "buttonInterfaceType" : "GPIO",
+            "inputDevice" : "/dev/input/event1",
+            "buttonMapping" : [
+                {
+                    "buttonName" : "volume",
+                    "inputEventType" : "EV_REL",
+                    "keyCode" : 0,
+                    "states" : {
+                        "down" : 1,
+                        "up" : -1
+                    }
+                }
+            ]
+        }
+    ]
+}

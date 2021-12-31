@@ -1,0 +1,48 @@
+<TransitionModel>
+<Topology>
+<TopologyEntry>
+<ForPhones>
+8 9
+</ForPhones>
+<State> 0 <PdfClass> 0 <Transition> 0 0.75 <Transition> 1 0.25 </State>
+<State> 1 </State>
+</TopologyEntry>
+<TopologyEntry>
+<ForPhones>
+1 2 3 4 5 6 7
+</ForPhones>
+<State> 0 <PdfClass> 0 <Transition> 0 0.75 <Transition> 1 0.25 </State>
+<State> 1 <PdfClass> 1 <Transition> 1 0.75 <Transition> 2 0.25 </State>
+<State> 2 <PdfClass> 2 <Transition> 2 0.75 <Transition> 3 0.25 </State>
+<State> 3 </State>
+</TopologyEntry>
+</Topology>
+<Triples> 23
+1 0 0
+1 1 1
+1 2 2
+2 0 3
+2 1 4
+2 2 5
+3 0 6
+3 1 7
+3 2 8
+4 0 9
+4 1 10
+4 2 11
+5 0 12
+5 1 13
+5 2 14
+6 0 15
+6 1 16
+6 2 17
+7 0 18
+7 1 19
+7 2 20
+8 0 21
+9 0 22
+</Triples>
+<LogProbs>
+ [ 0 -0.293422 -1.369269 -0.236932 -1.556109 -0.415270 -1.079285 -0.244816 -1.527161 -0.378019 -1.155873 -0.405556 -1.098431 -0.255197 -1.490607 -0.145044 -2.002366 -0.305671 -1.334193 -0.273425 -1.430329 -0.209970 -1.663941 -0.266654 -1.452168 -0.887663 -0.530376 -3.404157 -0.033800 -0.377369 -1.157289 -0.215921 -1.638860 -0.177816 -1.814596 -0.291404 -1.375210 -0.419883 -1.070385 -2.110086 -0.129229 -0.231730 -1.575813 -0.018107 -4.020470 -0.013710 -4.296493 ]
+</LogProbs>
+</TransitionModel>

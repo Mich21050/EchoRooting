@@ -1,0 +1,2161 @@
+{
+  "version": "669701320", 
+  "packages": [
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/17b168b8de52b90d14af9dd2c0f7c272/libc6-669701320.ipk", 
+      "sha256": "601396a676fe591a5659e3b31bb3e7d2ca216872c48ad8198e11bd0b4bdcdd32", 
+      "version": "2.19-r0", 
+      "name": "libc6", 
+      "size": 1448890
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/0e7f4844dca89dcb771b37d6866489c9/libgcc1-669701320.ipk", 
+      "sha256": "abf413a726ceddb0b1bb6426f3eba89a87d5c8501c1e28263769b74316a820d3", 
+      "version": "4.8.2-r1", 
+      "name": "libgcc1", 
+      "size": 203242
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/86f3bcc5a1e2fe38343fc7ed2c204e16/devmem2-669701320.ipk", 
+      "sha256": "f4358373672ec00f588dc6beb9179c68a6e9eda3460a33c8f68d20a49aa3aff3", 
+      "version": "1.0-r7", 
+      "name": "devmem2", 
+      "size": 4098
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/7bf6d2063f7c89e04d6916fcb7c5bbda/libffi5-669701320.ipk", 
+      "sha256": "50c03c5e076fa869c2d7e27bb9cb9c750290484f7ac641942c51569245fae340", 
+      "version": "3.0.10-r0", 
+      "name": "libffi5", 
+      "size": 15474
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/e6ef2bebd0a596cc7bc5f88cecfc15fe/libz1-669701320.ipk", 
+      "sha256": "b6ef359abbc30ffb7115800ef89f99d091a4ef58711be18d5651d43863ddf015", 
+      "version": "1.2.6-r1", 
+      "name": "libz1", 
+      "size": 46698
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/e22eaa65f4e97ae3dc38e33eb785161e/libglib-2.0-0-669701320.ipk", 
+      "sha256": "4968ce6044007c5a19b3ca6d27de208598170f1e7fe83da718f917a24ae3b231", 
+      "version": "1:2.32.4-r5", 
+      "name": "libglib-2.0-0", 
+      "size": 1018628
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/608896629580af4fb18c758482e3f3a5/gstreamer-669701320.ipk", 
+      "sha256": "982289d5097591c325bd4fd559a7e3252dd6b2dc35868e1d2e75f87a46e78391", 
+      "version": "1.2.1-r4", 
+      "name": "gstreamer", 
+      "size": 732102
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/d7e07cebfed41845804f83aeda2c9ca3/libgstapp-1.0-0-669701320.ipk", 
+      "sha256": "13d14704037116be799b075874052e2d4c5a456b6bb2280e1b0c1ccd8055cb9b", 
+      "version": "1.2.1-r6", 
+      "name": "libgstapp-1.0-0", 
+      "size": 20512
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/14cb37ffb5195a32fb853862087759d7/gst-plugins-base-669701320.ipk", 
+      "sha256": "5ea65c14ebdcdcd651793eebc4e09792196fca1c870e37dfdf63990a0966766b", 
+      "version": "1.2.1-r6", 
+      "name": "gst-plugins-base", 
+      "size": 15722
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/36c81f29f477ed8ff011ce440b5f385d/gst-plugins-base-app-669701320.ipk", 
+      "sha256": "ffa62637251c3b8ef72866322fdbefad130da6a988a0bf90b17f7d8c150ea7f0", 
+      "version": "1.2.1-r6", 
+      "name": "gst-plugins-base-app", 
+      "size": 3356
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/38d9b358c248d48c45491f1e4425036f/libjson0-669701320.ipk", 
+      "sha256": "95a331e7d45819c3d23c495efe6f1f1cfbe16186f0ab5835f5066ae08fffd42c", 
+      "version": "0.10-r0", 
+      "name": "libjson0", 
+      "size": 15216
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/1b0befa5cec801cf9c1e56bd44883e8b/libdbus-1-3-669701320.ipk", 
+      "sha256": "aa74b516d9538c01dfdd3fa5681be839ef21c1c38df5f2e6ce080793021997ee", 
+      "version": "1.4.16-r11.1", 
+      "name": "libdbus-1-3", 
+      "size": 87422
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/fd8965536c0d0c625dc4529c49a517ec/libudev0-669701320.ipk", 
+      "sha256": "171d9db0debc388a024b8053008daefc1a42fc6f8a33c84c09820133dd69eeb0", 
+      "version": "182-r9", 
+      "name": "libudev0", 
+      "size": 23588
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/2345ada5ff081f64a34a51049d62155c/libtinfo5-669701320.ipk", 
+      "sha256": "b1564fda5d1be796489b041998d92da945b501d1d53c82fe64cc16f29df71077", 
+      "version": "5.9-r9.1", 
+      "name": "libtinfo5", 
+      "size": 53378
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/e14780662c90c637e041913cbd6b648a/libreadline5-669701320.ipk", 
+      "sha256": "4ce9024976aee6be1e834cbefc4000dbf022d6922857e2880fdeb2ef4cf27dac", 
+      "version": "5.2-r8", 
+      "name": "libreadline5", 
+      "size": 98652
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/841e9c780ad775d882b569e60a9bdb73/libusb-1.0-0-669701320.ipk", 
+      "sha256": "b73e4223c78c598ab79a02eb84661f44344b3cdf7b7881abafd90a38120d69d6", 
+      "version": "1.0.8-r4", 
+      "name": "libusb-1.0-0", 
+      "size": 23222
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/68ca34cb29ba65b74dee7f118a223bef/libusb-0.1-4-669701320.ipk", 
+      "sha256": "ec8c9962a2eebac7f13ea1beddf0ad6a57f3952167b53c2907f06075a769c1f6", 
+      "version": "1:0.1.3-r5", 
+      "name": "libusb-0.1-4", 
+      "size": 8228
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/6a5a11829cc40cf9c04de702e74fba93/bluez4-669701320.ipk", 
+      "sha256": "8a0e5f2cd760462c22d9cfb89c02169eb5186529c4b2f89082af779775321ae7", 
+      "version": "4.101-r60", 
+      "name": "bluez4", 
+      "size": 778886
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/fec8b387ef79a5c76b6ab9b5ccfb02b0/ofono-669701320.ipk", 
+      "sha256": "59b968cb1bf1ab87b8cbbe9c065cd53371b66e17a4a50f4770a560607ddcb9d8", 
+      "version": "1.5-r5", 
+      "name": "ofono", 
+      "size": 401150
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/ab15f3c5549c9090e8fdeb9e456e9419/busybox-669701320.ipk", 
+      "sha256": "251b3606138617b9f84b71a4d3e7deb743400fdc1988db1a040bdfec03b6b9fb", 
+      "version": "1.19.4-r15", 
+      "name": "busybox", 
+      "size": 308470
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/7bb0a514c3e0df51381c5e64cea7f1b9/libgstrtp-1.0-0-669701320.ipk", 
+      "sha256": "b7356b96f340d0d23a5e398bffc5fc9dd6c3912eef7042ab08f29fb0bdc7552d", 
+      "version": "1.2.1-r6", 
+      "name": "libgstrtp-1.0-0", 
+      "size": 37888
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/38e6c1c0df143c8ad500ef66818f81d3/libcjson-669701320.ipk", 
+      "sha256": "2df9e916386659f8d02b7a252859c90af5299edd65c576bc25adfbb9a849d60a", 
+      "version": "1.0.1", 
+      "name": "libcjson", 
+      "size": 15198
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/49b0d85514c1bf0a60cc9e2e6fd19ed9/libltdl7-669701320.ipk", 
+      "sha256": "125df0bd4d3d13b6774b9bc1b965c6d59ccdc8b96632d385119a879ea0dd9688", 
+      "version": "2.4.2-r3.0", 
+      "name": "libltdl7", 
+      "size": 16030
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/06b97da37e2774389889e3a7c4f7ef25/libsndfile1-669701320.ipk", 
+      "sha256": "f98e42fff63f51acd5d0d55365b43fdf0372f19f969753fbf7d598a46b787993", 
+      "version": "1.0.25-r0", 
+      "name": "libsndfile1", 
+      "size": 153790
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/262615377eac5adcbb545bec73c724ce/libcap2-669701320.ipk", 
+      "sha256": "598c27033c32dc6e4991a50995ad67b5505a20238fde0c6039556be07aa48a62", 
+      "version": "2.22-r3", 
+      "name": "libcap2", 
+      "size": 26788
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/7e4e2e4a13bc23f8be80b5978867c0af/libfftwf-669701320.ipk", 
+      "sha256": "6bccb0433f4a50ae3f8ed512f7941c22ac779a3f9404d36ab783c4f85db3c04b", 
+      "version": "3.2.2-r2", 
+      "name": "libfftwf", 
+      "size": 746658
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/cf67160c5e3c310a7028c81765b192d3/fftwf-669701320.ipk", 
+      "sha256": "f85f21aeea1b483e3cab80fc0258c8c0beb0e15855cebf0b8cd332b88f8049fd", 
+      "version": "3.2.2-r2", 
+      "name": "fftwf", 
+      "size": 16974
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/6303dc8c4490eacedb004ab7d99f3bf1/sbc-669701320.ipk", 
+      "sha256": "788aa8f917bbdc86c19d0a8133f90d7f60f75575662a11f85d0fd0f1bd3229e0", 
+      "version": "1.2-r0", 
+      "name": "sbc", 
+      "size": 118934
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/724ffc7df46d24d6d6c33616092c7246/pulseaudio-669701320.ipk", 
+      "sha256": "af6b1e94f5493b20063857187187c12cdaabd682cabd2f2adb99d2b960c1472a", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio", 
+      "size": 161792
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/efb78c12000b15d6050c9e9160dbc168/libpulse0-669701320.ipk", 
+      "sha256": "b7def95d661dc0bd0c3b0dcd74e9a3c9100da8873d8f7c849dcf794eeaa117a5", 
+      "version": "3.0-r53", 
+      "name": "libpulse0", 
+      "size": 106254
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/f523f48001848aad045af3792920b567/libsamplerate0-669701320.ipk", 
+      "sha256": "fd26ced098c87d7d860beff1eee50c8200aaa033d02ac3c594846857b5e0c612", 
+      "version": "0.1.8-r1", 
+      "name": "libsamplerate0", 
+      "size": 1342072
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/04c3dd538eedcf3a1c96b27f89bdd708/speex-669701320.ipk", 
+      "sha256": "6464f68b7d33e342f93ae337bb831ed8e8df4f693d3abee71647d06cfc280e3c", 
+      "version": "1.2rc2-r2", 
+      "name": "speex", 
+      "size": 251266
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/14d7953b9126e7d3f1ea2d24bb2623be/liborc-0.4-0-669701320.ipk", 
+      "sha256": "654cc96a1c2c3ec4c19872e4135d3bc1f5449c2cfeb3af6bc76c0ef33eb39f40", 
+      "version": "0.4.18-r1.0", 
+      "name": "liborc-0.4-0", 
+      "size": 150350
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/cf348c3ba3ffc4c7b949bffb8d8137ac/libpulsecore-669701320.ipk", 
+      "sha256": "f3d6ceb73875c46e7606bf2b6b58aaad9ef797bea760ac8969ad53140e039c14", 
+      "version": "3.0-r53", 
+      "name": "libpulsecore", 
+      "size": 220262
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/bc27a0608897e8e88ed124d107333074/pulseaudio-lib-protocol-native-669701320.ipk", 
+      "sha256": "591c888e1266b7286941fe5bfac10fc0f5587e8a6e557a455773d03768319fc5", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-lib-protocol-native", 
+      "size": 45800
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/976606b153114c0db70c577a150bf78e/pulseaudio-module-null-sink-669701320.ipk", 
+      "sha256": "14129b6e704a9c2c4a5318508dc3bfdc1c11cc869452ae55761978887ba45566", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-null-sink", 
+      "size": 7212
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/428761eaa822b745eac72d39ba9ddc4d/libogg0-669701320.ipk", 
+      "sha256": "e620b2abf75853bbb81f9aea9003b957b9cc48d598b36870498f0a10fe51e1b9", 
+      "version": "1.3.0-r0", 
+      "name": "libogg0", 
+      "size": 11130
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/31f31c699bd568821a441a3a6eb30f54/libvorbisidec1-669701320.ipk", 
+      "sha256": "0ea4c0365f2072f969d3dbf287c3a7e90165925f4f05759c72b7d60ba44f675b", 
+      "version": "20120314-r0", 
+      "name": "libvorbisidec1", 
+      "size": 78054
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/3781e4d0abc05f2b3de973fdd9e6e687/pulseaudio-module-tunnel-sink-669701320.ipk", 
+      "sha256": "e5b1fc4e61c46465a02c4572c13da1ff9a033d463b432e896e84ddb17c75af46", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-tunnel-sink", 
+      "size": 17688
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/da55c4b1d843528e8c085f3877e57683/libcgroup-669701320.ipk", 
+      "sha256": "04b85c499757c266bf225409a1f8105a5e192293f2d0b98d6db8a67fee039088", 
+      "version": "0.37.1-r1", 
+      "name": "libcgroup", 
+      "size": 62766
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/c2d36deeb7fc93d27afeedbb45fc2499/pulseaudio-module-device-manager-669701320.ipk", 
+      "sha256": "1453dc1c52af971f7059bba96ffec6d6bf8b0011ce62f8f4a8dc24932118bec4", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-device-manager", 
+      "size": 17072
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/ac2cea064a418c26ad554277cff0c8ac/libpython2.7-1.0-669701320.ipk", 
+      "sha256": "98e452d94cb7f23cfa6f5109e90d564869ff88b81f72a7d4fc43dbf34fa946a6", 
+      "version": "2.7.2-r2.18", 
+      "name": "libpython2.7-1.0", 
+      "size": 622210
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/c998550800e4f45d38c9272eee8e0ffb/python-lang-669701320.ipk", 
+      "sha256": "111dcd355b866bc628338bd243653a6a13678f84c340321f634b13a6166ca71a", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-lang", 
+      "size": 184058
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/1f1dfa4183a8ed3f1e22a18fcebc9896/python-core-669701320.ipk", 
+      "sha256": "34addd5f43880bf42df25c9647783810c1c0af6d84d051b948034d0068a2fd56", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-core", 
+      "size": 195688
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/053856b09c212281daa2d15a06d680e5/python-re-669701320.ipk", 
+      "sha256": "4cc6d8b199cee8b5b23bff4283196b519b21ac6361a483b9ae6b78d4d1823d33", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-re", 
+      "size": 34356
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/3537e911e459bc747dcbb27df617f5ec/atheros-external-669701320.ipk", 
+      "sha256": "f8bbeaa2bd7ccec4247f132218712d94f1e871b28f017032fcfb15512be01176", 
+      "version": "1.6.7013", 
+      "name": "atheros-external", 
+      "size": 31774
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/28d9603da74429d8b82a13bdb2cf935c/doppler-atheros-669701320.ipk", 
+      "sha256": "ba4095c899b87ca6f350c000a5d7bcb1079a48cafa88fb806321adc4a1e39e78", 
+      "version": "1.2.7013", 
+      "name": "doppler-atheros", 
+      "size": 466988
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/bf465c8039c54da79bf5c20303a9c26e/libopus-669701320.ipk", 
+      "sha256": "8151f6f9b867228cc349c02901693ae03a796e25581a1887d09ccae244e23d1e", 
+      "version": "1.1.3", 
+      "name": "libopus", 
+      "size": 202940
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/3b7d40004a344884beb90c9398e0af9b/libdaemon0-669701320.ipk", 
+      "sha256": "7569ddc708613724fe1342beaaef64502bb8aeb9445d7bd8553626f9c16ef5ad", 
+      "version": "0.14-r0", 
+      "name": "libdaemon0", 
+      "size": 10332
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/a8d04cd1c830f9176f9a19d3f91d1509/libgstvideo-1.0-0-669701320.ipk", 
+      "sha256": "a0d82bc18b8a02b6bec61ff43806672e366e3948f98c9e48abc90b9afa765340", 
+      "version": "1.2.1-r6", 
+      "name": "libgstvideo-1.0-0", 
+      "size": 111490
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/49f508f977290b585d34542ef1f594e6/libgsttag-1.0-0-669701320.ipk", 
+      "sha256": "850fe585c57d5d0ff517e937811d8aebbe213097be59dce875f04eb7fe1bc8d8", 
+      "version": "1.2.1-r6", 
+      "name": "libgsttag-1.0-0", 
+      "size": 92544
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/2cd8616a02aed9e5ad7bb1859ad0a967/libgstaudio-1.0-0-669701320.ipk", 
+      "sha256": "6accd6035e34ff3c0ccead0e540fa526efc867648ed2918f41129de9173feb32", 
+      "version": "1.2.1-r6", 
+      "name": "libgstaudio-1.0-0", 
+      "size": 121468
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/6d7e9ed3b56b81253a057ec1eabe7bb2/libgstpbutils-1.0-0-669701320.ipk", 
+      "sha256": "c803609747a7c29b6774d066a13d95b80eda6d1fa0d166105ed033f42c214c6c", 
+      "version": "1.2.1-r6", 
+      "name": "libgstpbutils-1.0-0", 
+      "size": 57180
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/e79124f41bf834702cfabf6e97d67b81/gst-plugins-base-playback-669701320.ipk", 
+      "sha256": "557d126e9bb77a4d4983a1ba43fd8b1bdc152306d8b15f3675efb7898aa6e283", 
+      "version": "1.2.1-r6", 
+      "name": "gst-plugins-base-playback", 
+      "size": 140664
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/a54ba9938e9a383d2586a5efc2de88bd/gst-plugins-good-669701320.ipk", 
+      "sha256": "873b6b97f01dd3b0af5e31a84f25566a94c41ff1aee993f48f23ddcb13d1915d", 
+      "version": "1.2.1-r14", 
+      "name": "gst-plugins-good", 
+      "size": 2262
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/f8a924801768001c6d53e85b8446a16f/gst-plugins-good-pulse-669701320.ipk", 
+      "sha256": "4178cf2f0f747d42b6cf7ffa59694e4488f9015f1572e207a75147c91144a768", 
+      "version": "1.2.1-r14", 
+      "name": "gst-plugins-good-pulse", 
+      "size": 44552
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/632fa0f570487483a4cf2d4d78a16642/gst-plugins-good-autodetect-669701320.ipk", 
+      "sha256": "95af9f81b273f6b4fed32de5447d9205d9b0096182a3b8a14bbe35b4db815159", 
+      "version": "1.2.1-r14", 
+      "name": "gst-plugins-good-autodetect", 
+      "size": 12240
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/27c0e4f045488920e9a91cc0e5cefc87/libavahi-common3-669701320.ipk", 
+      "sha256": "0888c1ee89006228633c09043464efea00a4c4a98cd21e3454b87dd5faf48908", 
+      "version": "0.6.31-r5.0", 
+      "name": "libavahi-common3", 
+      "size": 20744
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/149ab041c213e6a15aee0a15bc265f75/libavahi-client3-669701320.ipk", 
+      "sha256": "22509260c963d1cd9fd82f8d9a41055941b2f601f38d1d3324866eb3809f1d3f", 
+      "version": "0.6.31-r5.0", 
+      "name": "libavahi-client3", 
+      "size": 24356
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/71f82edf7f49fdfd8d715573b6a8584f/libavahi-glib1-669701320.ipk", 
+      "sha256": "004035b2a7b9e0ae245b13621476172bd30e2197555040876e95855bef73e463", 
+      "version": "0.6.31-r5.0", 
+      "name": "libavahi-glib1", 
+      "size": 7540
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/7bac4fafe1db018c01fc548e49249dcc/spotify-669701320.ipk", 
+      "sha256": "e30bee6fb86a4ecf2945f6a646208277c843bba424982a687a740e5db1d96848", 
+      "version": "1.0.7013", 
+      "name": "spotify", 
+      "size": 339752
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/73d439a41a3e2c068ff5d7dccee72461/libncursesw5-669701320.ipk", 
+      "sha256": "5c415182c7f6111462f91a135f5558a114880a867378aa9ee62e4b72b3d645d6", 
+      "version": "5.9-r9.1", 
+      "name": "libncursesw5", 
+      "size": 88632
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/782a6bd3478b7177b876403812fe380e/python-readline-669701320.ipk", 
+      "sha256": "7a0c95d132b43f90948e11afc0908e524627b5c16666eea2b0a5df053bf4df12", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-readline", 
+      "size": 13238
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/e1feed4debc6e0094c7b219eeabb7980/whatify-669701320.ipk", 
+      "sha256": "39eff3b4434aeab01e9f54cc3408fdef2e634672d77dbe34ba83ca03ee948e70", 
+      "version": "1.0.7013", 
+      "name": "whatify", 
+      "size": 412588
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/7913ddff9cde663602a1e766c18b5b1e/libpcap-669701320.ipk", 
+      "sha256": "25c741b60452cc26cf58c3b14966c4983abfa9e51c4a1d64857fa2d82690fe01", 
+      "version": "1.2.1-r1.0", 
+      "name": "libpcap", 
+      "size": 102214
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/4f738beab39c4a499c592c086625772e/ldd-669701320.ipk", 
+      "sha256": "273507ed542c7bb5e7f42de1fa5dc6ed13850de0596471300f77c0a255d00ecc", 
+      "version": "2.19-r0", 
+      "name": "ldd", 
+      "size": 4438
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/e7a5383c898f51112dcd365f36809e94/pulseaudio-module-tunnel-source-669701320.ipk", 
+      "sha256": "0c7a57cd8780746fb31bfa093212b45e9d8cbd6a24e4765622ed056cb214d721", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-tunnel-source", 
+      "size": 15770
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/049be5ce1837aa0aa18f97f10eaeb930/tslib-conf-669701320.ipk", 
+      "sha256": "599cb705f9a21f250c5fd4c1b428baef713ce632fd8eed2322decab90a649174", 
+      "version": "1.0+gitr1+e17263ef401ee885a27d649b90b577cfb44500e0-r8", 
+      "name": "tslib-conf", 
+      "size": 2152
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/f1d61aa674455901cd2cab71cc7a32c2/pulseaudio-module-sine-source-669701320.ipk", 
+      "sha256": "92988748a26c29cfcc75f8b68baacd66a59f77c21828e8a81622c364eb08dc28", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-sine-source", 
+      "size": 8490
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/4fce35ff4ecc300e8abff740c1154263/libpulse-simple0-669701320.ipk", 
+      "sha256": "cce639c90ccf7ab109068ee49edf1e5ec364ae8ac3a5a080673a1315b9f26c0a", 
+      "version": "3.0-r53", 
+      "name": "libpulse-simple0", 
+      "size": 6414
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/a83709e61ae15a414d9a436b97baf1e3/mpg123-669701320.ipk", 
+      "sha256": "991550cd1641c8bc773c465ef5ab7ad7001b643a813020835850b96e1ec2e827", 
+      "version": "1.21.0-r1", 
+      "name": "mpg123", 
+      "size": 225986
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/87f312404dea96b079688ebf1d454a10/libboost-atomic1.55.0-669701320.ipk", 
+      "sha256": "0b4896bedf8b5beafcab163d2cc2b9af1bc2c1b05519a9edff22b518dfcf9f3a", 
+      "version": "1.55.0-r0", 
+      "name": "libboost-atomic1.55.0", 
+      "size": 3244
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/f5b30b463694a04ce8b300b98fcb3d50/libavahi-core7-669701320.ipk", 
+      "sha256": "71d607680da00a70cc8780532408aab14199e1f98dde072eea44fc8ef40691c9", 
+      "version": "0.6.31-r5.0", 
+      "name": "libavahi-core7", 
+      "size": 85402
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/4c7d0f28366eb655a200294c14d49e20/libexpat1-669701320.ipk", 
+      "sha256": "cd439ab7e683e4708a0043d2832293931ba833eb05f0d39024026efd6a2d7c41", 
+      "version": "2.0.1-r1", 
+      "name": "libexpat1", 
+      "size": 53632
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/21bf7d60135bac8feb9bdd53d81ecb5b/avahi-daemon-669701320.ipk", 
+      "sha256": "4ea35fca4ede44a24ee54768dc196163855cd40fb48940536c4b755185f1f5d0", 
+      "version": "0.6.31-r5.0", 
+      "name": "avahi-daemon", 
+      "size": 51396
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/f9c8382fa81b09a582655cebb5dfed63/pulseaudio-module-combine-669701320.ipk", 
+      "sha256": "8108be7bdd5bd9f214ff44857a3734cdac5897de3940321a5cb269b747838173", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-combine", 
+      "size": 4194
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/ef4b73abcc222eba292613f77a0c5c68/pulseaudio-module-role-cork-669701320.ipk", 
+      "sha256": "ddf6ff564742b1866d09e7b44603c424f1662e6dabadac74ea4a9089af55dc7c", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-role-cork", 
+      "size": 7166
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/5159324420916d9dcc71db586049182d/alsa-conf-base-669701320.ipk", 
+      "sha256": "bcc238a32438d82f6b87d824c2c081381801021cb74535d6a58a6c4676475dd0", 
+      "version": "1.0.25-r1", 
+      "name": "alsa-conf-base", 
+      "size": 4708
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/0eca99c03c7f407e3bc9cdec336ba029/libasound2-669701320.ipk", 
+      "sha256": "3cf04db94bfee3382745d63b433d59dfea838236a4cdfdc7d942165ea8191843", 
+      "version": "1.0.25-r1", 
+      "name": "libasound2", 
+      "size": 334870
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/eb31810d998ec50ce673b4addf9c17d6/alsa-utils-aplay-669701320.ipk", 
+      "sha256": "1c6bd7091b4ad16ec3d7436f1ef714e5ffe8b57984ace9c5b3c64e556814f3eb", 
+      "version": "1.0.25-r2", 
+      "name": "alsa-utils-aplay", 
+      "size": 28386
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/974ef8f2565fb718b0eb3d6052c5b3f0/python-fcntl-669701320.ipk", 
+      "sha256": "2aa6b44c0973ab8972cb9905b0f3f477d50af04e2b005193d08f1b7645893951", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-fcntl", 
+      "size": 8470
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/cc78d295eb39565a79dcb446ee9cac77/ethtool-669701320.ipk", 
+      "sha256": "d64b43cd44ccb7d5c0255ffae1c6c3203c85aa96d62cda591a6c11765d4f8dfc", 
+      "version": "2.6.36-r0", 
+      "name": "ethtool", 
+      "size": 66752
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/ee18a977ed32a1d749ac90df3ee4136e/base-passwd-669701320.ipk", 
+      "sha256": "e29ce37ae6ab00db486154e81c8955dab1b6fb13ef544f2d8103732b58103e74", 
+      "version": "3.5.24-r6", 
+      "name": "base-passwd", 
+      "size": 3196
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/94adc8f3394cec63ed35ffb52f4ff4c8/dbus-1-669701320.ipk", 
+      "sha256": "a1ca7e77db0c5dd59df73234067011577e2ec523c8d43d6422d55517715d0cac", 
+      "version": "1.4.16-r11.1", 
+      "name": "dbus-1", 
+      "size": 246028
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/cf1ec65f5f2157aa57369b4ce72960cd/libxml2-669701320.ipk", 
+      "sha256": "8c77e6b48a4e469c4e89db0bbd3d56691269cc4787c7b7d193bfe2719ae187db", 
+      "version": "2.7.8-r7", 
+      "name": "libxml2", 
+      "size": 529248
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/28652b1192d7761fc630e8e6328b0fe9/evtest-669701320.ipk", 
+      "sha256": "a24ba7cfef845fe98b737a07276aef82fa263d63df61cb26dfdf623556845a2e", 
+      "version": "1.25-r0", 
+      "name": "evtest", 
+      "size": 16194
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/3510a5a362060ffd6dbf5453837396a6/pulseaudio-module-virtual-surround-sink-669701320.ipk", 
+      "sha256": "d8f8056c33ab60716d01b4d6f6934f26aaf4966c8f446c98c304f22c8d244ba7", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-virtual-surround-sink", 
+      "size": 12492
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/1e2a94d11aa4ae03e0ca8693c5b876d5/libcom-err2-669701320.ipk", 
+      "sha256": "70ffee8d4105a5ee66b9c4183913c7398ff3b857a694079cbf2c931e49e3da08", 
+      "version": "1.42.1-r1", 
+      "name": "libcom-err2", 
+      "size": 6108
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/231c69edcecb8c86b032b559eb246f43/opkg-config-base-669701320.ipk", 
+      "sha256": "0cb517e78cbef9f7f66399b083f58eead24829bf75f1ad65c0d6c30ad42ca59d", 
+      "version": "1.0-r1", 
+      "name": "opkg-config-base", 
+      "size": 1534
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/e23032aa12666a8c8aab8fb35f33917a/libdbus-glib-1-2-669701320.ipk", 
+      "sha256": "33a5db47705209f58f35fa5676bce798b0f5cf844fcd881708138e2a2581b39b", 
+      "version": "0.98-r1", 
+      "name": "libdbus-glib-1-2", 
+      "size": 51552
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/d69739a49a5536a4a5072c66a1bcc079/python-threading-669701320.ipk", 
+      "sha256": "c9db0f194906858979b4809e02bf39408aad479fcb48a8fdf51345a259c96454", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-threading", 
+      "size": 30444
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/04a5c605a73b34463ad4efd008355191/python-elementtree-669701320.ipk", 
+      "sha256": "b444c93bb0ee6b736ffdce28d154ff7fd6e03cdc94cbcb61157b4d73f863bfb6", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-elementtree", 
+      "size": 19670
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/d42454bb28e09824ffe3c75afb64892d/python-xml-669701320.ipk", 
+      "sha256": "9f5c0f98f970f4a68edf005921fd81b2b31bd4b1a98f56d83f93e4beb9270caa", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-xml", 
+      "size": 227970
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/37ba447f2c8e4e4cf56907e0f055c694/libcrypto1.0.0-669701320.ipk", 
+      "sha256": "f7eace3cace20bf2c16573f159758e10d65d1984988a428f263619a2d2b9104f", 
+      "version": "1.0.2f-r0.0", 
+      "name": "libcrypto1.0.0", 
+      "size": 670478
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/92e523647a46998480d18a9a86a8a2d2/libssl1.0.0-669701320.ipk", 
+      "sha256": "495c1ae18d0e85758045e111fb95e5bbee5551dd5cdd9a91260bbb815db0f231", 
+      "version": "1.0.2f-r0.0", 
+      "name": "libssl1.0.0", 
+      "size": 159930
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/83c6a6ff89228d86e28a9080517ad1e2/python-math-669701320.ipk", 
+      "sha256": "e4015c462bcf3d5c113561478f5bdd2b0c6f29d50d83f4bdac7e8613eaf7f873", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-math", 
+      "size": 68320
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/742427aada9d628b061a706430566dd2/python-io-669701320.ipk", 
+      "sha256": "048ce6db78fc5ddb6851183f74a0492e64855a853f6d10e1dd8f92d9a9fb2156", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-io", 
+      "size": 184970
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/11266863f712efcd29cd8b4647b1fea3/python-codecs-669701320.ipk", 
+      "sha256": "14eff12777a84733c76d6c079ff28b08ed474edf68e8e627c8ede8b81ba9e380", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-codecs", 
+      "size": 1035068
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/cf3b3c01fa6762dbebe852bf96738842/python-pickle-669701320.ipk", 
+      "sha256": "174f590a55795cccb512630a14522d86d742d4628b23fa06fae12163553d8ec1", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-pickle", 
+      "size": 96354
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/a35f31dfd57e29fb9b231508301b72b9/python-stringold-669701320.ipk", 
+      "sha256": "2855c6708c16a926de0bf1a3b29c02c7602a6d89fb8f44980d23bb5fdb4e99e4", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-stringold", 
+      "size": 24778
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/46c97b93fda1ac879874417c6580627b/python-logging-669701320.ipk", 
+      "sha256": "2e1d8c9a5b6114a4919aba65a34183c2c3a5ea209944248d497ebf7f823944fd", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-logging", 
+      "size": 65688
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/9a31b10a54c5e3277b40ffd2954de957/python-dbus-669701320.ipk", 
+      "sha256": "3ed191aefbc2dbc7e3fbc7ae604cc405e9e1ef2e143311e6e27e0b6b08a301d0", 
+      "version": "1.0.0-r1", 
+      "name": "python-dbus", 
+      "size": 110854
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/bf5390291d7f0d470f02688a5fa650e8/libupnp-669701320.ipk", 
+      "sha256": "555054a31bfc55adfa1ec3204fa985e96a62c69c8b11e795bb1fd3c352439db0", 
+      "version": "1.6.19-r2", 
+      "name": "libupnp", 
+      "size": 117296
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/33b55ba1abba0f8ffc00d94f300af719/libgstriff-1.0-0-669701320.ipk", 
+      "sha256": "199333daac8cf721469df93297c4143fa32f51cfe416c69f3f28c0723bf96b22", 
+      "version": "1.2.1-r6", 
+      "name": "libgstriff-1.0-0", 
+      "size": 27094
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/e7589e48a26f1918760274de4c3f7153/gst-plugins-good-isomp4-669701320.ipk", 
+      "sha256": "9d8e4b7bbb56614132bad28569da51e58ee2cea8d419f0f0bd9eca3876ef7905", 
+      "version": "1.2.1-r14", 
+      "name": "gst-plugins-good-isomp4", 
+      "size": 171464
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/1a090c5974677fa0c7556bf3606d9794/pulseaudio-module-sine-669701320.ipk", 
+      "sha256": "d38017b50d3b14c6870e4b8f1ee258f6c32c1fa32ce5da3aa082fd55237dbaac", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-sine", 
+      "size": 5930
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/80194916e257d74a1ef8acf096c24b3a/libattr1-669701320.ipk", 
+      "sha256": "27abd51442ee0dd4e6accb7c3fb8182e451453bf396443ccd1eb27b43b64216e", 
+      "version": "2.4.46-r4", 
+      "name": "libattr1", 
+      "size": 24442
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/fa82e6dd519db68b67c16091ed5a7c10/libacl1-669701320.ipk", 
+      "sha256": "5195079e00a4aebf7bb9cea71f749f9ab4ce9b002300bdfc7e6f1862f93a09bb", 
+      "version": "2.2.51-r3", 
+      "name": "libacl1", 
+      "size": 55112
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/c0e028e57acdd048e25c41bc8944b7ab/libgpg-error0-669701320.ipk", 
+      "sha256": "10ef44f3034f1706f21d8a13dec416456cde8a2d38d1a753c1cf61f872835280", 
+      "version": "1.10-r1", 
+      "name": "libgpg-error0", 
+      "size": 7014
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/70784a0d74430b2e366d9ff1663f322f/libgcrypt11-669701320.ipk", 
+      "sha256": "98afdefc6ef8cc039e75ad17aaf425cc915c9641ffb42aaefad76e76a6ff933a", 
+      "version": "1.5.0-r0", 
+      "name": "libgcrypt11", 
+      "size": 251816
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/1892dc30b74c13bb4a1bc0ccf266ab41/kindle-d-669701320.ipk", 
+      "sha256": "8188a181bcfb7cb381ca81070a7e3e1ae786be5ba202aac39cd9a89ccae1c0de", 
+      "version": "1.3.7013", 
+      "name": "kindle-d", 
+      "size": 536002
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/29f7095736867ae30d8d9438f67f3874/libstdc6-669701320.ipk", 
+      "sha256": "a9f71d5d479074d309eb71837f3c3ffa7ed82a1c84d1a8b98ad8875cce10bcdd", 
+      "version": "4.8.2-r1", 
+      "name": "libstdc++6", 
+      "size": 267084
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/3736b3b1824e85f766ad7f76ad4e4dd7/libboost-regex1.55.0-669701320.ipk", 
+      "sha256": "6be0f7b2231038f51a14b68afc4e64ca0fd67ccf6b15ec18936f191dfa2afb42", 
+      "version": "1.55.0-r0", 
+      "name": "libboost-regex1.55.0", 
+      "size": 295582
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/95377332e41db3f367dfcf55f838d7a8/libboost-system1.55.0-669701320.ipk", 
+      "sha256": "7b5aadf649a5d181e07cc3cb210fdd09fd5d82f99d23deffb1971304ba547250", 
+      "version": "1.55.0-r0", 
+      "name": "libboost-system1.55.0", 
+      "size": 5618
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/d027abbbf7eef53d6e9f76922a0a37bc/libboost-chrono1.55.0-669701320.ipk", 
+      "sha256": "53d1807d3659890d110cca2eb02445b89079e0415e4bedf757887d6e86b6bf65", 
+      "version": "1.55.0-r0", 
+      "name": "libboost-chrono1.55.0", 
+      "size": 9522
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/3b4d087d0b89a8c24f1e64bd2a232fe1/libboost-date-time1.55.0-669701320.ipk", 
+      "sha256": "af19ae00a538621ccf9cb7e60b0d0c32965e31d219279096d22e1d8dc065c203", 
+      "version": "1.55.0-r0", 
+      "name": "libboost-date-time1.55.0", 
+      "size": 15030
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/d087c177da9e6bd15f444c194b635f98/libboost-thread1.55.0-669701320.ipk", 
+      "sha256": "0140a2372e3d866277dd1ee5dbdf3f4b0a615c6a471f4560f2adb4dc584ec2a2", 
+      "version": "1.55.0-r0", 
+      "name": "libboost-thread1.55.0", 
+      "size": 23622
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/611657db0ce3c9cd429627ba847d3e3e/libbz2-0-669701320.ipk", 
+      "sha256": "ae97171f23b2b094cf8a874a8371e58172b72da00d2d8ee84b5c8a0db7d30150", 
+      "version": "1.0.6-r5", 
+      "name": "libbz2-0", 
+      "size": 34150
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/92f113ff356a30bcede29a1e42452a8e/libboost-iostreams1.55.0-669701320.ipk", 
+      "sha256": "a475bd0b1e25e21709fb9b4afb3acc6d148c2188ddadca63d28004dd88c407e3", 
+      "version": "1.55.0-r0", 
+      "name": "libboost-iostreams1.55.0", 
+      "size": 23952
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/b05ff757e12f15de16570db4d9edd9e3/libboost-signals1.55.0-669701320.ipk", 
+      "sha256": "ea9c080278d3c64d2c3d101d999e3c18e8266eb4946426a72145a7462026fa6d", 
+      "version": "1.55.0-r0", 
+      "name": "libboost-signals1.55.0", 
+      "size": 25346
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/52dcc53cb464ad8ce1143594a4fae401/libboost-filesystem1.55.0-669701320.ipk", 
+      "sha256": "94e28903161464d84e58c4f95cafe1f00ffa13eeba0d9ae1ec06800e49f45a02", 
+      "version": "1.55.0-r0", 
+      "name": "libboost-filesystem1.55.0", 
+      "size": 33620
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/37478c79727690446e283fc3f4eb4493/libboost-program-options1.55.0-669701320.ipk", 
+      "sha256": "9f8008d951ba67545e3a488fc33a8fd23b33e2546f4052848620f74773bf75b9", 
+      "version": "1.55.0-r0", 
+      "name": "libboost-program-options1.55.0", 
+      "size": 119074
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/2609de2cf02fde02eed46f054570296b/boost-serialization-669701320.ipk", 
+      "sha256": "ec1368cbb8ccedbbaafa14c0e7f2da8e269dc7affe19cf81f6ebcf823d1ea9e6", 
+      "version": "1.55.0-r0", 
+      "name": "boost-serialization", 
+      "size": 138078
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/543f833e1a15f88bbb0931b5fae46373/task-doppler-boost-669701320.ipk", 
+      "sha256": "bc85251a0570ebcd78258f7f84063279e61df0918309bcd4410e789b7711b573", 
+      "version": "1.0-r2", 
+      "name": "task-doppler-boost", 
+      "size": 1444
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/02abf646674650ca31258121eb7645ea/protobuf-669701320.ipk", 
+      "sha256": "16511e6b83ca7ab6ef3caad2300c930e5347107d9a02c1901db2da58a28bdfd0", 
+      "version": "2.4.1.0", 
+      "name": "protobuf", 
+      "size": 625050
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/9ac8d5b431b1edbb78b8994ca246b3cc/libcares2-669701320.ipk", 
+      "sha256": "5a38c081e6e20105e63c3fda0137201d615921cf1e80bdfe4e3ee2b3e159a015", 
+      "version": "1.9.1-r2", 
+      "name": "libcares2", 
+      "size": 31438
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/358056ddd33378394f33e4985fb9f863/libcurl4-669701320.ipk", 
+      "sha256": "1e60d40f64e88a8cc3b1af39ce76b2a2dca17fb5429735ebb045dfa409a02b87", 
+      "version": "7.63.0-r2", 
+      "name": "libcurl4", 
+      "size": 150964
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/ad438db4eda81620cc949a93eff45196/doppler-core-669701320.ipk", 
+      "sha256": "e9f43e14c9450788d5c14b958194156e83527f5ab178e825f6fcb925554d8cbf", 
+      "version": "1.2.7013", 
+      "name": "doppler-core", 
+      "size": 316774
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/51c238f5f8b186ab35b0a03fc4d96082/libncurses5-669701320.ipk", 
+      "sha256": "5494561d14b657ca2349909c9808daf5155150cc60a670ee874540c2b1fa858d", 
+      "version": "5.9-r9.1", 
+      "name": "libncurses5", 
+      "size": 60220
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/bebaf4a2bf78807ab6f5e896e4dfa0b3/libgstmpegts-1.0-0-669701320.ipk", 
+      "sha256": "e54bbde581a5bf762aeec58263f7be2354b86daee4a903bf118952bee1a065ab", 
+      "version": "1.2.1-r10", 
+      "name": "libgstmpegts-1.0-0", 
+      "size": 28858
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/ec7727ed16c3924ee93533ba257cb365/libkmod2-669701320.ipk", 
+      "sha256": "c2d6287a8e73e73b813a2fe1b203f756742a298df29feb1c24ea4dad3bcd6863", 
+      "version": "7-r3", 
+      "name": "libkmod2", 
+      "size": 34678
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/083a4a11e161f0bd0c4a1194a96eb491/gst-plugins-bad-669701320.ipk", 
+      "sha256": "4ee715bb5fc7ffb7f07473f2b548e75de8e03f147f37bb3fbb228c0050e167fd", 
+      "version": "1.2.1-r10", 
+      "name": "gst-plugins-bad", 
+      "size": 1404
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/01d5edb912c70740d7f5ba85df6a36d7/fbset-modes-669701320.ipk", 
+      "sha256": "8460ad7e58740701079b736179f25290875f088d9930438be7e972cc6befff78", 
+      "version": "0.1.0-r6", 
+      "name": "fbset-modes", 
+      "size": 1520
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/714ac5b4013225c189a087613f0d9940/pulseaudio-module-position-event-sounds-669701320.ipk", 
+      "sha256": "a9ec07c203a5cc5026e19cc20e592da2f11947e0c71245eaa0d8ae885cd7a986", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-position-event-sounds", 
+      "size": 5318
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/b47a30079a0faa34fe3f3e3821959a5f/pulseaudio-module-switch-on-connect-669701320.ipk", 
+      "sha256": "e61914847d489f8f09223f177576e730c08cd6445e9bc79643c715c3a790693a", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-switch-on-connect", 
+      "size": 5520
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/af9bb58439e4bc9712c88f543517bc19/libthrift-669701320.ipk", 
+      "sha256": "b49475b0cc4c513ff4ac6241806a7c2d06d4dc38321bf3bd22391a0eec0e71cf", 
+      "version": "0.9.0-r0", 
+      "name": "libthrift", 
+      "size": 171138
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/e15b5820cb551564602dd066dbc8658b/gst-plugins-good-wavparse-669701320.ipk", 
+      "sha256": "a562ed8ff2d8f3f5e8431aeba0ba9d82d60bf443c00985fd16bf4007f2ddc2fd", 
+      "version": "1.2.1-r14", 
+      "name": "gst-plugins-good-wavparse", 
+      "size": 27972
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/0625401e507c8e18e91cf99fc0f3a688/pulseaudio-module-suspend-on-idle-669701320.ipk", 
+      "sha256": "63fdf249afa00631744b04df5948d21db616c6cafdce45a51543eb1c07f6bbd4", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-suspend-on-idle", 
+      "size": 11608
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/d95e2c128ea797e84a25ef443683aee5/dnsmasq-669701320.ipk", 
+      "sha256": "20d98f0b2aa2940b802f3c0952ce1c20f03f2cd4e183a7fbbf891342d67fb3ab", 
+      "version": "2.55-r15", 
+      "name": "dnsmasq", 
+      "size": 85270
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/9dc8f4d4194b5aa60ced0835f04c0a9a/ncurses-terminfo-base-669701320.ipk", 
+      "sha256": "afcf539a500c02e0bb06a5eb8ab1beef0a4a7524ed06821c97c2670d369e2d1f", 
+      "version": "5.9-r9.1", 
+      "name": "ncurses-terminfo-base", 
+      "size": 7426
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/2f16e2eea53201120c4f8e0c5a4cf17c/ncurses-terminfo-669701320.ipk", 
+      "sha256": "b0129a5fae66c74a87fb4d105546fc00e7e090196ddee9a71d38be193ebe89a3", 
+      "version": "5.9-r9.1", 
+      "name": "ncurses-terminfo", 
+      "size": 409526
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/200e0f1cc10670829c48b8534600646e/htop-669701320.ipk", 
+      "sha256": "a7f34bc4854e6c19c3bf748bebe5f520c14c952520491f63481339c5c52008a2", 
+      "version": "0.9-r1", 
+      "name": "htop", 
+      "size": 51456
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/f9803a4104106c8f2027fc6d9ee1a577/update-alternatives-cworth-669701320.ipk", 
+      "sha256": "80ffe0c13a1072009d9e4a67f0bcb21cc072f4e7e627d3d88b95f3d4d9642261", 
+      "version": "1:0.1.8+svnr633-r9.0", 
+      "name": "update-alternatives-cworth", 
+      "size": 3354
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/1bf291d664e9dacf2e8029f14b58775d/libopkg1-669701320.ipk", 
+      "sha256": "a6139c052249d1e9c26ea9b0b81c8547d73ce2c86e1bafd30ce39cbd411ea3d8", 
+      "version": "1:0.1.8+svnr633-r9.0", 
+      "name": "libopkg1", 
+      "size": 77058
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/09e67a5627122bc41e11376aa85580dd/opkg-669701320.ipk", 
+      "sha256": "ae3a1493f5d4efb08da73ab193dfbd03f199d8ae8d0fd76e8e9d6fb0c19396b9", 
+      "version": "1:0.1.8+svnr633-r9.0", 
+      "name": "opkg", 
+      "size": 8526
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/6823af817344791e910a384383d1ffe8/module-init-tools-depmod-669701320.ipk", 
+      "sha256": "2090911a27c95902b8d5edc3bafd8b15b9b8c2b9338e39131c711fd6f4f8e910", 
+      "version": "3.16-r0", 
+      "name": "module-init-tools-depmod", 
+      "size": 28368
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/7f04b88f2c15cf704fb3278a38a66b70/module-init-tools-669701320.ipk", 
+      "sha256": "ba2ae9f53874fc515adb0a83f5ecace0bc7d343cd6fc6345f30e18af3cd36ae8", 
+      "version": "3.16-r0", 
+      "name": "module-init-tools", 
+      "size": 41846
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/3781ed2bac7afbd8cbf641734ee9bab1/pulseaudio-lib-cli-669701320.ipk", 
+      "sha256": "4872c7766fe1380fe762f55d866af218968587ca64e64c03f9d6fca984dd9d6b", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-lib-cli", 
+      "size": 5018
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/3cb33e6e4ef910547dcf575aa61584f2/pulseaudio-module-cli-669701320.ipk", 
+      "sha256": "46a3b9ec48f6d2be8d20d52dea9d3b883a17695a0b71a9815a38730d6d8ea445", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-cli", 
+      "size": 4920
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/0f7aa6dfdf5dbf87d28e2ad1361e581e/liblzo2-2-669701320.ipk", 
+      "sha256": "9dc8f22d07e6aeafad456640791622ee7b40630a7e444ebafa0c6488575144d2", 
+      "version": "2.06-r1", 
+      "name": "liblzo2-2", 
+      "size": 43744
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/f23dd4dfd45eced59d8afb7c778877e0/libarchive13-669701320.ipk", 
+      "sha256": "9931fae8cdeea2d4fd330ff8c1257b9e60ed3b5041cb762d14527c8aeb226c31", 
+      "version": "3.1.2-r0", 
+      "name": "libarchive13", 
+      "size": 282656
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/8dc7feeb32233a6fe06df504a2e72ba2/libpryon-669701320.ipk", 
+      "sha256": "45f55eaaa1ad31e5304df9b9c5de3358191d76d83369f744cbb70de0bd22986c", 
+      "version": "2.0.7013", 
+      "name": "libpryon", 
+      "size": 18056796
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/e53bac9de6d25dcc41a07db5949b509d/doppler-version-669701320.ipk", 
+      "sha256": "a0b16a243de9a87c130b540d708856c46459c060755c3d576250be5ac9c6bd6f", 
+      "version": "669701320", 
+      "name": "doppler-version", 
+      "size": 1686
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/65f0c2a67d625e3e9639699d6fb6aa21/tinylogin-669701320.ipk", 
+      "sha256": "3a729683ce94e00be1ad0c4800df0c07161eb84afe48a0622c2acf5d76715632", 
+      "version": "1.4-r9", 
+      "name": "tinylogin", 
+      "size": 23186
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/0c1b1a7baecef333573902c343e6c3e5/modutils-initscripts-669701320.ipk", 
+      "sha256": "f5c603d9bb064d7f2611214e0c2a75cd79f3eae654707df3584a49c372346363", 
+      "version": "1.0-r7", 
+      "name": "modutils-initscripts", 
+      "size": 1928
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/1ee522b302ff0ef8890b5aac1e04dadf/libnih-669701320.ipk", 
+      "sha256": "a30a2800f82189c28643b09a0417cdb3e645fa636ff6e1b1760fbfd24637064b", 
+      "version": "1.0.3-r2-4ubuntu16", 
+      "name": "libnih", 
+      "size": 113790
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/9a52bce1f3d2ec4696baa26d5638590a/upstart-669701320.ipk", 
+      "sha256": "0dcf16b9cad83d74e17a2c55adf4ba8c232a7b8769340eee840a85078d54fd92", 
+      "version": "1.10-r5", 
+      "name": "upstart", 
+      "size": 439586
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/c168970b2b40dacaee625e4e2c2e6532/libuuid1-669701320.ipk", 
+      "sha256": "68e5f20bbc9ee24c25ee5fec4f8718d45c51b6eecab83fa621b688c3fa1279ce", 
+      "version": "2.21-r5", 
+      "name": "libuuid1", 
+      "size": 9484
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/d01d6471514babd7c6ecc9f6599313fd/libblkid1-669701320.ipk", 
+      "sha256": "48e815c1fda061d810ac2527dc1150978bb97df5084a3196d1ecbd08b1e94960", 
+      "version": "2.21-r5", 
+      "name": "libblkid1", 
+      "size": 67512
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/14c4d78cf834653f3029432a02874292/udev-utils-669701320.ipk", 
+      "sha256": "7f46fbd69a3822492fc339aa884955c0db3d065b5d95f0b717235eb20f6dc226", 
+      "version": "182-r9", 
+      "name": "udev-utils", 
+      "size": 69070
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/7740638617a261d19748402e2d1ad895/udev-669701320.ipk", 
+      "sha256": "5303a7834091fac21b5d106c2fba37b321977654ab1c8a805680695d2adc18da", 
+      "version": "182-r9", 
+      "name": "udev", 
+      "size": 157664
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/bfe9993cda7910783747686cd5272daf/sysvinit-pidof-669701320.ipk", 
+      "sha256": "8b39876a72ba1817df8bf6431eebeb01a11605c69820eca7f9e18dc494f2828c", 
+      "version": "2.88dsf-r6", 
+      "name": "sysvinit-pidof", 
+      "size": 9142
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/5c1eeccacf56c23422c5534154e64f90/initscripts-669701320.ipk", 
+      "sha256": "48666e3f37737a4e5247b75a3485910ce8d00deae69e63ddbd9523a2f50832cf", 
+      "version": "1.0-r157", 
+      "name": "initscripts", 
+      "size": 16744
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/192fc89c6e42d58372f0353d8b1b68d6/netbase-669701320.ipk", 
+      "sha256": "b2f99ce63f5bb6d7fef0415196b19cf3bfb9e7f954668fd41873eb7d7cd2a240", 
+      "version": "4.47-r3", 
+      "name": "netbase", 
+      "size": 12416
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/9a574d20bd88f68521f28bc1f2a45c1e/base-files-669701320.ipk", 
+      "sha256": "d5dd54a3146288b8f9bb1b0196c7a478e431b9e8921d01bc6d291edf4f9d1890", 
+      "version": "3.0.14-r109", 
+      "name": "base-files", 
+      "size": 5454
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/86778834cffb510e672ee0e9a803326a/upstart-sysvcompat-669701320.ipk", 
+      "sha256": "3cbb8d789976d818818f8382687839ef2b4543209381ddf6e8eb0b8db1fd56c4", 
+      "version": "1.10-r5", 
+      "name": "upstart-sysvcompat", 
+      "size": 4208
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/b3f403f72c7349735fb10a5c91990545/task-core-boot-669701320.ipk", 
+      "sha256": "4a3fde6f7d685c375c9b0c2970d83874cd9d9340779b637faac38c75e4030812", 
+      "version": "1.0-r9", 
+      "name": "task-core-boot", 
+      "size": 1446
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/40be937b26dce3ab7dabfa0792cb5dea/mtd-utils-669701320.ipk", 
+      "sha256": "3864419d6ea5a79c68279d13e473c606d294379225882193d9e8befdda7c0a63", 
+      "version": "1.4.9-r2", 
+      "name": "mtd-utils", 
+      "size": 292730
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/188783e9084c53291f5daccab7a99811/alsa-lib-669701320.ipk", 
+      "sha256": "22a554ef41f06b8e1367932e905bf0f1f0ab39669ed3ceb8fca0af2277fd64cf", 
+      "version": "1.0.25-r1", 
+      "name": "alsa-lib", 
+      "size": 8370
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/811958d6b158739cd4926ac9df7126af/tcpdump-669701320.ipk", 
+      "sha256": "06b44d8442fd6ab52ccb6bb25ee5d512d0d835c6b2508645d59b66a330cde911", 
+      "version": "4.1.1-r1", 
+      "name": "tcpdump", 
+      "size": 274000
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/682634fc9de61eb4f9aa7512766374c8/task-doppler-base-669701320.ipk", 
+      "sha256": "ad5795bee4e39530a889430e85c7ab0775cf1d937e79b84dd216fb0a7968d2d0", 
+      "version": "1.0-r1", 
+      "name": "task-doppler-base", 
+      "size": 1398
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/01a762b3b125013ab5475e467dd185f4/ltrace-669701320.ipk", 
+      "sha256": "259d3d56a8a02a24702629edf2c42094d706c3be1ab951f3c6f55691427660e6", 
+      "version": "0.5.3-r4", 
+      "name": "ltrace", 
+      "size": 75448
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/66e715ec9c611655160e655520a41223/i2c-tools-669701320.ipk", 
+      "sha256": "c943727f642fce0d7bb6edf4914a6d90f0639f61344420155a05c580a6c2ad72", 
+      "version": "3.0.3-r0", 
+      "name": "i2c-tools", 
+      "size": 60364
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/d97f6f2d705d1b9529a2470a7a4696c6/libavutil52-669701320.ipk", 
+      "sha256": "887aee30213ca0af3ba6301ba3048726fc4c9c841d233e1a56bf1a999ee9f1e7", 
+      "version": "9.9-r9.0", 
+      "name": "libavutil52", 
+      "size": 69402
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/88c3b17e4034514cfb61120e352d1cc9/libavcodec54-669701320.ipk", 
+      "sha256": "eb0685f927970087024e17368949a3a097673887a279916ab73156ce2ca54cf7", 
+      "version": "9.9-r9.0", 
+      "name": "libavcodec54", 
+      "size": 3367420
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/9a26a1f2189ff8493e60cdc1eae8ff35/strace-669701320.ipk", 
+      "sha256": "a2f75eba715ce0fd26f4e996075df4b3a56e60e89ee6ce69f814ea0db2e69d09", 
+      "version": "4.6-r1", 
+      "name": "strace", 
+      "size": 94810
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/c37dc6833c40e0bb425e5810a439a3e2/dosfstools-669701320.ipk", 
+      "sha256": "56115bf79054dbdce24ea33794fd8c53424100a27011caf0f04897296493d7eb", 
+      "version": "2.11-r4", 
+      "name": "dosfstools", 
+      "size": 40094
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/62f2b0a587ff016c703b8caa6e803722/libe2p2-669701320.ipk", 
+      "sha256": "93530b379a04e54dd98f3d11583d97d833d61cfe1a90208ad90fec6fc48e29c0", 
+      "version": "1.42.1-r1", 
+      "name": "libe2p2", 
+      "size": 12384
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/4895684a4bdf273a0cb088d05e334a26/libss2-669701320.ipk", 
+      "sha256": "76450bbe82aaa53ef948bca3a7993d1a185f57fde2991cfe32dc035bde3e1225", 
+      "version": "1.42.1-r1", 
+      "name": "libss2", 
+      "size": 10240
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/64c1248bfe2c8e9000179fc93f1db90e/e2fsprogs-blkid-669701320.ipk", 
+      "sha256": "4d36e9670a3a234d0a8827962fda9b89a0aa74df8f86575c8cc6c7e10084a375", 
+      "version": "1.42.1-r1", 
+      "name": "e2fsprogs-blkid", 
+      "size": 6790
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/f29e25c8efb1714db03ae33305ca1205/e2fsprogs-badblocks-669701320.ipk", 
+      "sha256": "75fc8a2f7fdaba48423986d7e4944bf4c63875c8ad31baae27f9bd2e60dc826d", 
+      "version": "1.42.1-r1", 
+      "name": "e2fsprogs-badblocks", 
+      "size": 12320
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/8cb0f235d9c97712b823bfddb5db1fba/e2fsprogs-669701320.ipk", 
+      "sha256": "17336e4df2ebefa11d70a7443d2e3239fe04f5c6858d138d043808cbed9dcb25", 
+      "version": "1.42.1-r1", 
+      "name": "e2fsprogs", 
+      "size": 228740
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/9662931a9856694933c12223dc76a22c/e2fsprogs-mke2fs-669701320.ipk", 
+      "sha256": "3eb63c6653d4ab686b20db886b899c00cff0706d615b35e964687946723c9eb9", 
+      "version": "1.42.1-r1", 
+      "name": "e2fsprogs-mke2fs", 
+      "size": 40754
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/58f686557d090b17140769bc9dfa4b30/libavformat54-669701320.ipk", 
+      "sha256": "9bb3069dff764d301d16a8986e92101c56519662f0677ec996c881522211794e", 
+      "version": "9.9-r9.0", 
+      "name": "libavformat54", 
+      "size": 403948
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/56194859e82e264aef3ec7f3fae1bf73/ncurses-669701320.ipk", 
+      "sha256": "f598add5dd7d99f8acf38cffee33a26b30dd2b777c3853383ebc828ef87ed407", 
+      "version": "5.9-r9.1", 
+      "name": "ncurses", 
+      "size": 15992
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/d824d6e9f0a65e8711b7ab0bfbbe99f8/usbutils-ids-669701320.ipk", 
+      "sha256": "25a6c8496d5196c2fac24c12bbcc6d02c51a80b3292931aa6da8fe990e9ad5c4", 
+      "version": "0.91-r3", 
+      "name": "usbutils-ids", 
+      "size": 125502
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/6ecf79c57cda2313d1f5f78863d7cf73/bash-669701320.ipk", 
+      "sha256": "39a11ea97470a80595cfdcb375d71add135ea6a281d332c9752668902b64769c", 
+      "version": "3.2.48-r12", 
+      "name": "bash", 
+      "size": 341092
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/0aaee2581d3186c4df6584a78164bc22/usbutils-669701320.ipk", 
+      "sha256": "d0e3b828c7c0c719bc190a271b2d45485da2120df2d7034f6830df29b69f91d5", 
+      "version": "0.91-r3", 
+      "name": "usbutils", 
+      "size": 43126
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/7672381ceec288b881b68f3a9e320fbf/libtic5-669701320.ipk", 
+      "sha256": "10d2256a56c34258594fc48eb008650a2238e95f9aef66eb6fcd4c5659b9afcf", 
+      "version": "5.9-r9.1", 
+      "name": "libtic5", 
+      "size": 26094
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/d2fa6462f55897f81cd760ee427bd6e4/ncurses-tools-669701320.ipk", 
+      "sha256": "7f3fafdbff169118bbca680735615d08ac11fd3436f670490a5ed08215a43477", 
+      "version": "5.9-r9.1", 
+      "name": "ncurses-tools", 
+      "size": 58754
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/4c57d4f6f33546b0b17ceb19d44dae29/fbset-669701320.ipk", 
+      "sha256": "e663284f49fed5ba5e7e432dfdae5a59c480b5b25300eaaeb6306bdb2eb7cb47", 
+      "version": "2.1-r4", 
+      "name": "fbset", 
+      "size": 15200
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/5027131f133bb971abbe48b0aa144f1b/libts-1.0-0-669701320.ipk", 
+      "sha256": "519c46d6f91a88e5ce8e5ab4693a2480ce6f006ae7d365e4115b1f0c4a36f001", 
+      "version": "1.0+gitr1+e17263ef401ee885a27d649b90b577cfb44500e0-r8", 
+      "name": "libts-1.0-0", 
+      "size": 20020
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/d171ae4e13e2ac742f27521126e5f0fb/tslib-tests-669701320.ipk", 
+      "sha256": "8e7cdcce7e65883afb770bfd865b8c7de1d49d9445ec8640839f26052484f844", 
+      "version": "1.0+gitr1+e17263ef401ee885a27d649b90b577cfb44500e0-r8", 
+      "name": "tslib-tests", 
+      "size": 14652
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/87482914024056a3b719efe8955a5680/iproute2-669701320.ipk", 
+      "sha256": "dcc5bd1c8b7474006116cdc65ccd835acd0814c920ba459d390fde193bae9580", 
+      "version": "3.2.0-r1", 
+      "name": "iproute2", 
+      "size": 222956
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/c0351da823e17264c0fa72cc2b3551d1/e2fsprogs-e2fsck-669701320.ipk", 
+      "sha256": "e23f23d0fae8cd38bd32cc98f265df371b43bcd8f0d01150cfe539a276fc489c", 
+      "version": "1.42.1-r1", 
+      "name": "e2fsprogs-e2fsck", 
+      "size": 104078
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/f6cbc94995adb35b1ea16e475fa117a2/tslib-calibrate-669701320.ipk", 
+      "sha256": "8cc48d93d72d5b50a5f2331dca8df042d7ae9c90c82247d68bc3931322b0d0e0", 
+      "version": "1.0+gitr1+e17263ef401ee885a27d649b90b577cfb44500e0-r8", 
+      "name": "tslib-calibrate", 
+      "size": 11060
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/15456e5abc4a36cd6ba59943ab1e0ee7/task-doppler-console-669701320.ipk", 
+      "sha256": "afe237db37b5766beb5a9ca3edf4e7989772155727d2bcf416f4d482d385f455", 
+      "version": "1.0-r2", 
+      "name": "task-doppler-console", 
+      "size": 1492
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/ba9c810813007f4539f81d8013ce3107/amazon-ca-certs-669701320.ipk", 
+      "sha256": "0af1484ebff9e6f805ba6215722b99810bd194d3643cc61630f92602bece6b55", 
+      "version": "20121129-r0", 
+      "name": "amazon-ca-certs", 
+      "size": 5592
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/1c0210da65222f54c70cd4e6f27b5568/avahi-669701320.ipk", 
+      "sha256": "a688e505aa4682a0516d051587f58845a760439a0acd794eb7b37a3c9569bc5b", 
+      "version": "0.6.31-r5.0", 
+      "name": "avahi", 
+      "size": 2878
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/0cdc496af080f8f27d21b20339bf78f7/task-doppler-networking-669701320.ipk", 
+      "sha256": "f6787f4c2e35eb6b5f3b8804aa75700d1679c5a7979ff6ef309a70441b534b3c", 
+      "version": "1.0-r4", 
+      "name": "task-doppler-networking", 
+      "size": 1388
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/9a4d7ca1b10f8ccfeb7bc9caac1ae1a3/pulseaudio-module-virtual-sink-669701320.ipk", 
+      "sha256": "64743d5cb702427d4be342e86ab6707f78df929f5ae0951d0b70de15434f3f9a", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-virtual-sink", 
+      "size": 10346
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/3a3482af5ce6861f42a638ac80823d3d/pulseaudio-module-loopback-669701320.ipk", 
+      "sha256": "938806c023dc1ec612c48f3d0c40aef717fe5c9d357272b7620281ad2e70c92e", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-loopback", 
+      "size": 16126
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/4f7490b9ae3f24524a8b0e0b14db3057/pulseaudio-module-card-restore-669701320.ipk", 
+      "sha256": "a83206fd5058eeb2d7b710fbfcaf950f35a7ccf55c07f1fa6a3bebaaba4e6573", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-card-restore", 
+      "size": 8270
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/d7b03f17e7023f2a038b00e89325cbe5/pulseaudio-module-combine-sink-669701320.ipk", 
+      "sha256": "e1e39dad9d23760386053f7b8dce3ca3e75c43b8786424a2f91579ff18aa4f03", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-combine-sink", 
+      "size": 19224
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/022d25eb4ca30403b049a3e34b51a73a/pulseaudio-module-match-669701320.ipk", 
+      "sha256": "58ee3a314dfdd00f43af776495eed57743ac10ec2ef3f2bb14095f3d1f530f52", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-match", 
+      "size": 6260
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/2a449ec055aeaf386f66803ee5f89458/pulseaudio-module-udev-detect-669701320.ipk", 
+      "sha256": "e2bbfe1d5f2f9ff65c36add6d0414514335e74ca43f2d9c600cf501d9505ef00", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-udev-detect", 
+      "size": 12670
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/eebc7a187ddbcd33deaa09cdaeadc084/pulseaudio-module-native-protocol-unix-669701320.ipk", 
+      "sha256": "bef7164c4e81184204dc0a5f85ad4876c00b810d911bc5d7670c82d96a075e2e", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-native-protocol-unix", 
+      "size": 5216
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/78b61eaaddc3f7cbcd1421092dcf4097/pulseaudio-lib-bluetooth-util-669701320.ipk", 
+      "sha256": "d1df767b9296c5d59018d20ed49fb01649d75abc850144a3861a1000d7f6b72e", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-lib-bluetooth-util", 
+      "size": 28294
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/aa886707d06542e0fd89bffcf8611cab/pulseaudio-module-bluetooth-discover-669701320.ipk", 
+      "sha256": "6f713210e2e87d442906c6b79a97678a6a7adddef78fff27c0c31d4acc0e34a9", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-bluetooth-discover", 
+      "size": 5274
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/0e16385255dd5f5ce94a0079befb1229/pulseaudio-lib-rtp-669701320.ipk", 
+      "sha256": "e7cb3a189dd4bd47865fa827efe00af57870a25e4c688c0f6d8f2abf54c4a766", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-lib-rtp", 
+      "size": 16580
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/720a145e72d0494ed8bf2d63b5a6415c/pulseaudio-module-switch-on-port-available-669701320.ipk", 
+      "sha256": "af7d27c8f7b015085ef084db5984025c3470e18ae5434958190edc821c28f7f1", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-switch-on-port-available", 
+      "size": 5240
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/46bfe63d424813faf2a402b532f9c47f/pulseaudio-module-bluetooth-device-669701320.ipk", 
+      "sha256": "4bac8c5977aa31eeb6c5a77b131b54e4f75d9b89aaa049a5a8ff0a0dbb9a5be4", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-bluetooth-device", 
+      "size": 27060
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/5a5e1ae10ac4f771a3faf641ff259435/pulseaudio-module-dbus-protocol-669701320.ipk", 
+      "sha256": "6f52734d6343c7f914bf4e3f31927d3c137599a3ba61376a4069e7c53f9043dd", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-dbus-protocol", 
+      "size": 63174
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/7d091041cfbd6ca92ccf2c1b1b788b30/pulseaudio-module-null-source-669701320.ipk", 
+      "sha256": "07c8ddbbdcba3b44b7263288bd32f50be1c56e04bc4f1db4fc93c60a0dba3c4f", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-null-source", 
+      "size": 6650
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/c5a76a6d5a937cb5eaaceefc5ebdb154/pulseaudio-module-always-sink-669701320.ipk", 
+      "sha256": "1b21b92488ba75e91bcc6813e92d428fc9862fc3eebfe205173415cfe0a466fc", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-always-sink", 
+      "size": 5482
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/396f0061af742568ba021e1080793c6a/pulseaudio-module-device-restore-669701320.ipk", 
+      "sha256": "1f645b7ed4218e6b21e083aef551bfb465c95338598254f318759d96c4c324dd", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-device-restore", 
+      "size": 13996
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/871e05671b05b191ae06160ceaf1260c/pulseaudio-module-remap-sink-669701320.ipk", 
+      "sha256": "facc262a9ff4eb172353c60dec6ae2fe99e01383a93bc9af3616aa7501cde04e", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-remap-sink", 
+      "size": 8854
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/2223631b89003496de9995ceada565be/pulseaudio-module-virtual-source-669701320.ipk", 
+      "sha256": "6245158411f0c9b99a46f1012dce30bc19ec230ce12b9d3acc96113ea07c5f6f", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-virtual-source", 
+      "size": 10680
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/6589dfc1680e7a9117edd7fcbcd8cb33/pulseaudio-module-pipe-source-669701320.ipk", 
+      "sha256": "0b32646e4549dcf3d56ca8b4d4b512491b9c49590f4a85cf298b978cbeeae120", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-pipe-source", 
+      "size": 7424
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/b6e1c77715458536f753e8c4baff1186/pulseaudio-module-bluetooth-proximity-669701320.ipk", 
+      "sha256": "4a55c52d5fb5a099b9f0a2ec7c0a0037adbc19be3d7ac626b7638892ceaff7b2", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-bluetooth-proximity", 
+      "size": 8694
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/77e3811d46b950f058d09606b694b258/pulseaudio-module-bluetooth-policy-669701320.ipk", 
+      "sha256": "33d49ad3d7c2608f4fef0b328463ca0a7ee566a79c5271fe05e39989234d1dd2", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-bluetooth-policy", 
+      "size": 6000
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/40105e1e78095329e7ff88bacde6c9be/pulseaudio-module-pipe-sink-669701320.ipk", 
+      "sha256": "3baee01e1df38c9288ae1e02a33626085fab77fdf0f07dc733a22bf5e51eeca0", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-pipe-sink", 
+      "size": 7410
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/b4a4943ebc9fa225b05f998fce46fda2/libpulse-mainloop-glib0-669701320.ipk", 
+      "sha256": "40e08a15244bf558dbb532fc1fa8ba6b3d253c0c718cbdbba7b2d23f4b5379fc", 
+      "version": "3.0-r53", 
+      "name": "libpulse-mainloop-glib0", 
+      "size": 8854
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/a466980099de8d1ae62061029bff405e/pulseaudio-module-equalizer-sink-669701320.ipk", 
+      "sha256": "3319c2d8df92a3bfddb4482fe038ff76fbcb9847f5bda0ed48fe66bea0394849", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-equalizer-sink", 
+      "size": 26036
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/af07e21b0cf333fb1b111d7f53a6e257/pulseaudio-misc-669701320.ipk", 
+      "sha256": "9ab0b722463e548fba13130e202f219f39a342e2e7a7d7a480cdc8e0137eba2e", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-misc", 
+      "size": 25558
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/3587d58fa1f0ca6982d58e43f0399904/pulseaudio-lib-protocol-simple-669701320.ipk", 
+      "sha256": "103cc92fe9c634219d78c15c06014c84712f1b17e941ef0eb204436fe1c1ef1a", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-lib-protocol-simple", 
+      "size": 10950
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/2612b65a7025c26f1d7dd71273ed1c2e/pulseaudio-module-rescue-streams-669701320.ipk", 
+      "sha256": "070f82d868b1995818f8ed8248b284935355759b4a4cfbfcf2fc50525b213294", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-rescue-streams", 
+      "size": 6034
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/4d3bbdb99d36146ce9fda905c800dcab/pulseaudio-module-detect-669701320.ipk", 
+      "sha256": "7bb2d7d2da6149be0c6834255674b112b207787c62ca3ce595d3308b2f262f4d", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-detect", 
+      "size": 4920
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/b6f00f1809a6d13e77a941fb2f161a86/pulseaudio-module-stream-restore-669701320.ipk", 
+      "sha256": "a16de97197016bb17703d0ba579632ca13570790be9c9c703c3bafaf72fda78a", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-stream-restore", 
+      "size": 27068
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/1dd4d816eef2d34e90f34961436e5115/pulseaudio-module-default-device-restore-669701320.ipk", 
+      "sha256": "341217c6465e5d8ed2537a3ed98d99502ac5e370c7136a8cd434e8ba066bd785", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-default-device-restore", 
+      "size": 5464
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/8dd403536196b07cd461d5aaa8e9a865/pulseaudio-server-669701320.ipk", 
+      "sha256": "a24cc9eb528fc5a2b883b0e1b81fe8f3d2a24f4fca7ab72d8eb352917c694a73", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-server", 
+      "size": 60378
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/a1cf9260bb64c00d5a75db9d56992f2a/pulseaudio-module-volume-restore-669701320.ipk", 
+      "sha256": "31c1202f9d7212108bcff74c0413656922a8a202019062af0ab89de4fb75fd70", 
+      "version": "3.0-r53", 
+      "name": "pulseaudio-module-volume-restore", 
+      "size": 4342
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/c42312eed9dd682e1e942ac14b089ff1/task-doppler-pulseaudio-669701320.ipk", 
+      "sha256": "cab361c2ad15e614b3a595eb31719bc7b5418c792d3b9ca68539eaa085cbafb3", 
+      "version": "1.0-r6", 
+      "name": "task-doppler-pulseaudio", 
+      "size": 1720
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/ddca7913b5103168f14bb50c8804f7b8/iperf-669701320.ipk", 
+      "sha256": "2c39c19e88728a18495cce8cb197225b1c72b74b9a0e82aafebb8a433c10af1d", 
+      "version": "2.0.5-r0", 
+      "name": "iperf", 
+      "size": 27374
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/e7d66ad440b1b7e428ec1aa42e5c674f/openssl-669701320.ipk", 
+      "sha256": "f5e0017892a7831e017bbdf307e85020ebfe137bd3106c83563d029b3395cfe2", 
+      "version": "1.0.2f-r0.0", 
+      "name": "openssl", 
+      "size": 236716
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/5bd6dfde63f74a158a0dc0d9c61e317c/python-json-669701320.ipk", 
+      "sha256": "e5ea9f2116508b92fc743cb1dea45e8131f540900d7fa45c6be0cdd18a598219", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-json", 
+      "size": 59070
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/706502004436fde47baa692cbd5317c8/python-mime-669701320.ipk", 
+      "sha256": "32b70fee4c7b5df8bf546608c3dbfc93e9d60b626e3205afb65b14f0c101e0d7", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-mime", 
+      "size": 35400
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/50ad9854d82498d3d56b4e55bc9e3384/python-datetime-669701320.ipk", 
+      "sha256": "4c557eac4f32c3e76753b195bdea794a4330b73199bbea5a168a9d066db6021a", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-datetime", 
+      "size": 61566
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/3ebe976c556f754d9a4fe62d587008f9/python-crypt-669701320.ipk", 
+      "sha256": "42ac31b728f4340249e33cb4ed3ec968e3f6004e92ccc3b9ed070bca36b9083b", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-crypt", 
+      "size": 11546
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/b133a2392ba1f7c78be2a91127408cb4/python-netclient-669701320.ipk", 
+      "sha256": "a9c7214b3e91a3367aee78bad2fed9e277f4c7cc5e1cc2ab62444b1436c8c2c7", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-netclient", 
+      "size": 238110
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/4405d6b7b93d621decf6fad736bc1029/python-netserver-669701320.ipk", 
+      "sha256": "31632cbce67890d6c69a18e449a3a254aa761b466972715ead6c64b41e869ca1", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-netserver", 
+      "size": 53326
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/9103a6efdfa7f56302b5d9eefcebdba9/libpyglib-2.0-python0-669701320.ipk", 
+      "sha256": "060ddb170666cc6300873f5fdc8feb875021d872e94b9caed3ea6aaabb695376", 
+      "version": "2.27.91-r4", 
+      "name": "libpyglib-2.0-python0", 
+      "size": 6900
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/1a59c49eae4dd8a49b36339d47cb15cc/python-textutils-669701320.ipk", 
+      "sha256": "41e400609d60797d727b976d31bdb41e1c1acd4843286cdb33c64d91af5383a2", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-textutils", 
+      "size": 59236
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/7f73020abfed58785ac3d41c2812459a/python-pygobject-669701320.ipk", 
+      "sha256": "92c4b270e9748071fad0da4113e6f021863262ba72ebafc7821cd43e56907729", 
+      "version": "2.27.91-r4", 
+      "name": "python-pygobject", 
+      "size": 188770
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/9c8367b0d09c20c90b240beeacecea03/python-subprocess-669701320.ipk", 
+      "sha256": "0d7788a2ed3ac0aae26d9a5df2423b65214d11fb32dd40511343c55ccb9892ce", 
+      "version": "2.7.2-r2.18", 
+      "name": "python-subprocess", 
+      "size": 24146
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/37b57d962ac81e9759522a235cb0b33d/libevtlog0-669701320.ipk", 
+      "sha256": "6cde65ceb39ff71d518eec066ce9b48643ad03461c24d4e5db678d166e957e55", 
+      "version": "0.2.12-r0", 
+      "name": "libevtlog0", 
+      "size": 7364
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/47464d391686f2820416a834ceedffa7/syslog-ng-669701320.ipk", 
+      "sha256": "7a2ae95bf07f52f15d3abacf1877d0001562e21d92d06506fcb0c5a8377e8e9f", 
+      "version": "3.2.5-r23.1", 
+      "name": "syslog-ng", 
+      "size": 326588
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/5b2a046934abacadc9093d860b210773/libnl-3-200-669701320.ipk", 
+      "sha256": "c7a0629a452b938c09e1d4b837aaa7b499d740394fbe83020a19b74621bea54d", 
+      "version": "3.2.3-r0", 
+      "name": "libnl-3-200", 
+      "size": 39070
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/0778d1a7bf71082b1aa01c0a35e92e08/libnl-genl-3-200-669701320.ipk", 
+      "sha256": "8ffbb2fad2453816a37d1fd58abc8cebb0fb427dfa0bfafd8e45e5c2280f0c25", 
+      "version": "3.2.3-r0", 
+      "name": "libnl-genl-3-200", 
+      "size": 7780
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/aaf2eba0197b14c18d34ab0b8e382372/iw-669701320.ipk", 
+      "sha256": "d9bbeacc7e915e3127dbb656d8085d6878a14f97f6d86283e6342328df692c5a", 
+      "version": "3.2-r1", 
+      "name": "iw", 
+      "size": 40166
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/efbb5c2f34dd02cf1138d44231174575/iptables-669701320.ipk", 
+      "sha256": "af4c9896bec513e54be590d791e42b80c1ae659178c7eb645a5c29de0964c04c", 
+      "version": "1.4.12.2-r0", 
+      "name": "iptables", 
+      "size": 222384
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/60d6666dd1586badb18d2bf04be01f10/ntpdate-669701320.ipk", 
+      "sha256": "42d81f172ef7ebb029f194f886af0db17c5ce44d73db08551df1f58f43fda329", 
+      "version": "4.2.6p3-r10", 
+      "name": "ntpdate", 
+      "size": 40530
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/9c543c8e04d9a3d4e71515d561103250/openntpd-669701320.ipk", 
+      "sha256": "3eece08c37865faaae5b4cffef0d0dface76d0d26b5716a11198959bb0c70b80", 
+      "version": "3.9p1-r19", 
+      "name": "openntpd", 
+      "size": 23372
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/24dd9cb23f9384640f732f361463e4b7/civetweb-669701320.ipk", 
+      "sha256": "a7ac6bda61b82869d1c99eba8252273e43185537b202425c31fe662fb0d75cac", 
+      "version": "1.6-r6", 
+      "name": "civetweb", 
+      "size": 193282
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/fe61a4f4f99b35fb0c81d425b6f8b973/doppler-console-image-669701320.ipk", 
+      "sha256": "49a5d4fd08741d3b278e9740fb0f64242246516b48765add793a11a0a7e2eaa6", 
+      "version": "1.0.0", 
+      "name": "doppler-console-image", 
+      "size": 1538
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/de37815b228ba3b1708b85bd6cc64d07/doppler-misc-669701320.ipk", 
+      "sha256": "0559246889d96be3ff9ff23cb3a85aa76dc13c7111d7ffd4b5c508da006b3a33", 
+      "version": "1.0.0", 
+      "name": "doppler-misc", 
+      "size": 9876
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/de687826ebb122c99c5f46b2a241adc2/libnl1-669701320.ipk", 
+      "sha256": "43e5e3081658195d87ac0ab87c4901fe2ca44eccebcee02623de395d2f93615d", 
+      "version": "1:1.1-r0", 
+      "name": "libnl1", 
+      "size": 429018
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/77c1725760acb7061cec90e1cb9d5fc7/wpa-supplicant-669701320.ipk", 
+      "sha256": "ddc38c24623d0d4f2ba5d13abb00380569ab96ef5f0549debc66b7eb0edcdaa9", 
+      "version": "1.0-r12", 
+      "name": "wpa-supplicant", 
+      "size": 479682
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/faa99e82009db3458bf70cb7165838de/kindle-wifid-669701320.ipk", 
+      "sha256": "e5f37418a2d959e6ce63369133e3ac4d27f413672f516c30cfb0761e957037be", 
+      "version": "1.3.7013", 
+      "name": "kindle-wifid", 
+      "size": 424470
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/aada39ae7359d8b172c1ad74dc45277e/bluez-hcidump-669701320.ipk", 
+      "sha256": "6d242c4282637e946280be8e59e6ce79df5f1b7099d9c6f4044f4eedcbcd44a1", 
+      "version": "2.4-r0", 
+      "name": "bluez-hcidump", 
+      "size": 114402
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/564cb0a45e73eb3cea53181bd9e4e98d/ffmpeg-669701320.ipk", 
+      "sha256": "474d0339b1b4734c3b364aaa905ba7293ea5bb10e6ec892baad3a0ae4d9ad3ba", 
+      "version": "4.0.0", 
+      "name": "ffmpeg", 
+      "size": 1002112
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/df47ed625e2e1cf93a97211ff081ad9a/libnl-669701320.ipk", 
+      "sha256": "161baa546b76854083ad78c1a5cf59d84191fbafe644a03dcb380a1ec76a515a", 
+      "version": "3.2.11.1", 
+      "name": "libnl", 
+      "size": 462952
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/633f3ba3af6399b9b3174f37de052839/libspdylay-669701320.ipk", 
+      "sha256": "413fe22cbbf6ae1e958697663361a51203329f9527d1e11c4850bd613a073496", 
+      "version": "1.2.3.1", 
+      "name": "libspdylay", 
+      "size": 34658
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/75662efa816843e1bb63f3e614084a04/libsqlite3-669701320.ipk", 
+      "sha256": "2637d5f8e1ef8d974e2e5569a72c801c714cf9189cdc118e2fc9c63cf0844b88", 
+      "version": "3.7.17.1", 
+      "name": "libsqlite3", 
+      "size": 327914
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/dd61247ac8560bc21f137a4883bfbbf3/libtinyxml2-669701320.ipk", 
+      "sha256": "be18673e50d54c7647663f4b1b7865dcabfb5dd14b10552347e7e8ffac0ecfab", 
+      "version": "1.0.6", 
+      "name": "libtinyxml2", 
+      "size": 27508
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/0ea0826166414365ffa92e66ce022453/liburiparser-669701320.ipk", 
+      "sha256": "a23a117a37c6be5d18fa4b6816d0932865f26badc2f1ac0afefba7fe56702417", 
+      "version": "0.7.5.1", 
+      "name": "liburiparser", 
+      "size": 37834
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/790fdd605b8f36e64963e32233b31853/libs3auth-669701320.ipk", 
+      "sha256": "ca40487035fe6d2e64b099d01f2df2aeadd0dff83c40d1b7bc5316b79e970bb1", 
+      "version": "0.2.7013", 
+      "name": "libs3auth", 
+      "size": 14542
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/36dd3780bc30d2bfd69cf472d8002a52/libotaup-669701320.ipk", 
+      "sha256": "eab2c0bbefa4260cd4c520f88ee67f87ae6f7cbd22396da7d06fb13bfb500b14", 
+      "version": "0.2.7013", 
+      "name": "libotaup", 
+      "size": 96620
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/ca205f1c1e86cb2799bc7f6547f6ac6d/ota-update-daemon-669701320.ipk", 
+      "sha256": "8b77a60ba7895b96abb8b4dbf7a54b44b6a23bf1e57a7162ecd6d35f4aeb81a5", 
+      "version": "1.0.7013", 
+      "name": "ota-update-daemon", 
+      "size": 99142
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/6f3cf2338368236b49112b633f382558/openssl-misc-669701320.ipk", 
+      "sha256": "7c7e34b3053672a374f61232a1e3f83d44e8413cdfd7e6b6fe00574b5f4e48be", 
+      "version": "1.0.2f-r0.0", 
+      "name": "openssl-misc", 
+      "size": 10684
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/667f4335d43be9073e052e620cf4619f/gst-plugins-base-typefindfunctions-669701320.ipk", 
+      "sha256": "2e41c7fff45a9e0e3544408b6e927c37f2638430573a53669fb36a7551194e53", 
+      "version": "1.2.1-r6", 
+      "name": "gst-plugins-base-typefindfunctions", 
+      "size": 45656
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/5446d4100263a6d34dad8e9e6fb82e24/gst-plugins-base-ogg-669701320.ipk", 
+      "sha256": "9ad85999a14cd86c5f26bb8a2b8446c7d69b4565d2639b6f4d8ca6eea61c6e85", 
+      "version": "1.2.1-r6", 
+      "name": "gst-plugins-base-ogg", 
+      "size": 101112
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/47441aca8747c47f736f05bb076eeb46/liborc-test-0.4-0-669701320.ipk", 
+      "sha256": "1a75d4fa84deefa453b31a04cc428173ef31324e1b82927624c5ecd10a577810", 
+      "version": "0.4.18-r1.0", 
+      "name": "liborc-test-0.4-0", 
+      "size": 12800
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/ca805def2e4aec21390faff109c5f1c3/gst-plugins-base-audioresample-669701320.ipk", 
+      "sha256": "82af8dba7c1a32ce9db8caf94ea602b191d7addd0128caf3570c0fff5163a5df", 
+      "version": "1.2.1-r6", 
+      "name": "gst-plugins-base-audioresample", 
+      "size": 34434
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/29a705d29b321bd61a3a4c342151c74d/gst-plugins-good-audioparsers-669701320.ipk", 
+      "sha256": "d25baf32442605d35cee35ffbd49855cb10ce46f637455546af89904df22fcc4", 
+      "version": "1.2.1-r14", 
+      "name": "gst-plugins-good-audioparsers", 
+      "size": 58864
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/2be007a9fb99c7c13f8f4b1c02564bb1/libsoup-2.4-1-669701320.ipk", 
+      "sha256": "11901931625afefdd56ebd42695ed81ce9690bfcc778c2e12e8f6f50fd0b8d3c", 
+      "version": "2.38.1-r1", 
+      "name": "libsoup-2.4-1", 
+      "size": 147950
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/1c1f8369a91fe8ad79900c01e8162632/gst-plugins-good-souphttpsrc-669701320.ipk", 
+      "sha256": "0dc764f709d526933f004b301f90468c5a52798acbc2d094aa42b71cb113a5be", 
+      "version": "1.2.1-r14", 
+      "name": "gst-plugins-good-souphttpsrc", 
+      "size": 21460
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/e47447374d83a4593ef0499c8e64ca6c/gst-plugins-good-id3demux-669701320.ipk", 
+      "sha256": "13a8da7558fcb268921647963cfbd29cf73e9aa271cd873346cae4ac6fba4a72", 
+      "version": "1.2.1-r14", 
+      "name": "gst-plugins-good-id3demux", 
+      "size": 5652
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/163b985123457b37fa14f693fffb6446/gst-plugins-good-icydemux-669701320.ipk", 
+      "sha256": "d42c4f78f5c2696e73b72b6f510cac76089519d31946f8706c4103870d4c83ef", 
+      "version": "1.2.1-r14", 
+      "name": "gst-plugins-good-icydemux", 
+      "size": 8448
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/1f71f7d0c7393f4e91c2314dc5614801/gst-libav-669701320.ipk", 
+      "sha256": "797da201f2e13d97c2a082fd46a2afbf7683c57cac020658d510b7a518229c0b", 
+      "version": "1.2.1-r3", 
+      "name": "gst-libav", 
+      "size": 94162
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/6304f674b453d27529710fe70f3d43f5/gst-plugins-bad-mpegtsdemux-669701320.ipk", 
+      "sha256": "784c9f22c8b012e7d0668994aefe834b276ef30d47b219abaecc53da4c5d9782", 
+      "version": "1.2.1-r10", 
+      "name": "gst-plugins-bad-mpegtsdemux", 
+      "size": 52064
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/fd3eac30905d3da3ecde018f4a4e7dd4/gst-plugins-bad-mpg123-669701320.ipk", 
+      "sha256": "8a70abd1d878412ac15d72bf395f119d7928b0d6f430661c11c3b42cfede57de", 
+      "version": "1.2.1-r10", 
+      "name": "gst-plugins-bad-mpg123", 
+      "size": 9012
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/36656a30773ec39ac56d715ee128a0e6/libopus0-669701320.ipk", 
+      "sha256": "a44e093c40f13b2ba974e8198130e6b46006bf5e61f4e923fab1837a8f5aec7b", 
+      "version": "1.1.3-r0", 
+      "name": "libopus0", 
+      "size": 170974
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/08d2ede19e5f420edbb2b1fa118b0a25/gst-plugins-bad-opus-669701320.ipk", 
+      "sha256": "60baf5e4cc25d2d99001f41075e89e95e6208929cf708dc9127fc124a22c1dbb", 
+      "version": "1.2.1-r10", 
+      "name": "gst-plugins-bad-opus", 
+      "size": 26518
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/a6dd058a2a2dfdaaa20d9d449cf16631/libproxy-669701320.ipk", 
+      "sha256": "2699ee6b9c62ae76fdf3c0a15d39966ab20e4228f8d24bddce0597773fb39286", 
+      "version": "0.4.7-r4", 
+      "name": "libproxy", 
+      "size": 67080
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/269b860cfb5c91f3210ca781d63d863c/libtasn1-3-669701320.ipk", 
+      "sha256": "cbb022cafe9c4e7cc48966a80510e64efea332abddd3b99a4740b73ea756cbec", 
+      "version": "2.11-r1", 
+      "name": "libtasn1-3", 
+      "size": 29600
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/564b7a56c74a77ec008c5c58bc0df2f5/libgnutls26-669701320.ipk", 
+      "sha256": "d2907c7f4df750e1b9f21646499847f1c736ffb4848ce1d84ba73bdafdb608ac", 
+      "version": "2.12.17-r7.1", 
+      "name": "libgnutls26", 
+      "size": 303406
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/017048c923076b848411e733138d51ab/glib-networking-669701320.ipk", 
+      "sha256": "086e8529addee793aa1c9409ec5b86712ae694cdcbfddd348c968a25b1fd3a08", 
+      "version": "2.28.7-r2", 
+      "name": "glib-networking", 
+      "size": 24988
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/75dc4fda5ea8627a5453ae993cf97cca/libpryon-en-gb-669701320.ipk", 
+      "sha256": "f427b6ca446e431692f90c55f2b7567ce467320a1fc812bcd2a8af0b6e031b7a", 
+      "version": "1.0.7013", 
+      "name": "libpryon-en-gb", 
+      "size": 14174024
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/951e5f1b299dc2488f683a4c17a9ffd0/libpryon-de-de-669701320.ipk", 
+      "sha256": "51b0c5177f8fbbf3e04b3379c4b2e55617354e546d23b345b26c0a9e5bb215c4", 
+      "version": "1.0.7013", 
+      "name": "libpryon-de-de", 
+      "size": 11281960
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/3398fe16dd40365102e32061bcebe0bd/libpryon-es-us-669701320.ipk", 
+      "sha256": "4765b7753e1c317528246747c4e7f23eb301d66df776f2de1f45b851226f56f1", 
+      "version": "1.0.7013", 
+      "name": "libpryon-es-us", 
+      "size": 11763712
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/ff8baf2c89ad39b661feec5e19ad438e/libdavs-669701320.ipk", 
+      "sha256": "7a36da78d2e8353dc15521277c05975e5262533729423b42bc65b61e6465ba30", 
+      "version": "1.0.7013", 
+      "name": "libdavs", 
+      "size": 97774
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/cf52cf1059ac5feda464bf9cdb758eb1/avahi-utils-669701320.ipk", 
+      "sha256": "176ef65b0889fabbad1fc64f8fc591c8b291d0b0ea107072089cbffd3aa0101e", 
+      "version": "0.6.31-r5.0", 
+      "name": "avahi-utils", 
+      "size": 19782
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/2a9c17150ea9e2280a6199ae783f1195/scone-669701320.ipk", 
+      "sha256": "613195f9d71c281bbfb56e4e479555b7999054623f9c8463b83eed2419e91a57", 
+      "version": "1.0.323", 
+      "name": "scone", 
+      "size": 162488
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/fcd56449ed54295bb1d73e9fbaa0d7e6/gadget-669701320.ipk", 
+      "sha256": "0736eb1f5d50df4d81d82ee8be5e711eef59142100fb86986b8ec19f7e293305", 
+      "version": "1.0.7013", 
+      "name": "gadget", 
+      "size": 1432
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/6680f2359620115b20be8c5bb8f79f65/gst-plugins-base-ivorbisdec-669701320.ipk", 
+      "sha256": "19e09597d9ef93745944623bf23acea1ff1a9488c5ff05a0243f56a3dee29e7c", 
+      "version": "1.2.1-r6", 
+      "name": "gst-plugins-base-ivorbisdec", 
+      "size": 8856
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/1381e18d86ff736639d08b65fada6b01/doppler-669701320.ipk", 
+      "sha256": "3d75f9ce4f31830718e84f07d8b024d2cb79972d2cafe7d8e18426aa72b0cde7", 
+      "version": "1.2.7013", 
+      "name": "doppler", 
+      "size": 60993372
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/61ad4247ef85d7b307759cfc308f02d6/doppler-tidsp-1.2-669701320.ipk", 
+      "sha256": "5e681fec9a8d2702bee53fd31c654f72151abf3fda6b35096fea082ee94f94b6", 
+      "version": "1.2.7013", 
+      "name": "doppler-tidsp-1.2", 
+      "size": 79382
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/08b57538ee94e0fcda3a83593b88b5a0/doppler-uboot-669701320.ipk", 
+      "sha256": "5392c47f72721f1007db8ba6bf54936589af24d4a340018640e4f5711ba6a75c", 
+      "version": "1.3.0+git1+2e50740702dfd328fa8bd266da6a4edef2ea47f8", 
+      "name": "doppler-uboot", 
+      "size": 88872
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/3d53a0ee21c9f0cbc132dc1861df52a7/doppler-kernel-1.2-669701320.ipk", 
+      "sha256": "1a2a38c7757b83f6976e8827a25ae65ad56ddb2e5b1a3476be3bae10952b01e3", 
+      "version": "1.3.0+git1+dcce8d98a4a255c26f6999b6d67f850868bd50b8", 
+      "name": "doppler-kernel-1.2", 
+      "size": 2584304
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/41489c67b25bdb2c1934c76d1fc40cf3/metapackage-base-669701320.ipk", 
+      "sha256": "ebb449239e44a3b53f8513cfea9968ec888a1489a22171f1da976ea99a04ce77", 
+      "version": "1.0.7013", 
+      "name": "metapackage-base", 
+      "size": 1372
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/82871c7d3baaff29122cfe2104fb0453/firewall-rules-user-build-669701320.ipk", 
+      "sha256": "a5c34201c469e0aee629f7a6fa82c448b440ce369be7c798915c2f20d10b2444", 
+      "version": "1.0.7013", 
+      "name": "firewall-rules-user-build", 
+      "size": 3846
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/5cf63b1342469ab8cec212dc1453eac4/libnss-mdns-669701320.ipk", 
+      "sha256": "d50c4a0887cc37a99fbaf9961653484c9ed4baf14b70a7b347e3e8ae0e530384", 
+      "version": "0.10-r4", 
+      "name": "libnss-mdns", 
+      "size": 12614
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/cd0c9650cfba8516652a80f66b74d106/ssl-certificates-user-build-669701320.ipk", 
+      "sha256": "9f295cb2919698270dd3ad85006328e0bfd0916070f25a8312bf8363e22f1cb1", 
+      "version": "1.0.7013", 
+      "name": "ssl-certificates-user-build", 
+      "size": 117230
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/5c8b99ba93015836e5dc6c27846b5cab/metapackage-user-669701320.ipk", 
+      "sha256": "0bf9a3860af988b0a1888e3cf482482db47c82bfa1ad6d2bc8838457ad2bd871", 
+      "version": "1.1.7013", 
+      "name": "metapackage-user", 
+      "size": 1354
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/56dec5eaec929fc05f3f66317efcdd93/pointercal-669701320.ipk", 
+      "sha256": "5e9b5b20a7aaa9295f97568e333a803e30c2ce0bf9b01ff45700093c64ec6584", 
+      "version": "0.0-r11", 
+      "name": "pointercal", 
+      "size": 1348
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/d6bcdd8562275b14072c282354069975/busybox-udhcpc-669701320.ipk", 
+      "sha256": "f459472c4ea62a6fec2080c19dde7d898bb72338f5f72732eb34606716220626", 
+      "version": "1.19.4-r15", 
+      "name": "busybox-udhcpc", 
+      "size": 3184
+    }, 
+    {
+      "url": "https://d1s31zyz7dcc2d.cloudfront.net/8d8fbb780e8af21a5017fbeee14b1a11/libupstart1-669701320.ipk", 
+      "sha256": "852a564ff7db1ac0db76dae32e2d2f3a65dee1c1d5c89dcdfe8f243fddbd7753", 
+      "version": "1.10-r5", 
+      "name": "libupstart1", 
+      "size": 66080
+    }
+  ]
+}

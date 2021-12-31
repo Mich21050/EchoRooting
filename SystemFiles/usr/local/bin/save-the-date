@@ -1,0 +1,8 @@
+#!/bin/sh
+
+(
+    flock 9
+    date "+%m%d%H%M%Y.%S" > /var/local/last-known-date
+) 9>/var/local/last-known-date.lock
+
+

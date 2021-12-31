@@ -1,0 +1,13 @@
+loop
+100:0df,0ff,0df,0df,0ce,0ce,04b,0df,0ce,0df,0ce,0ff
+100:0ce,04b,0df,0ff,0df,0ce,07f,0df,0ce,0df,0ce,0df
+100:0ff,07f,0ce,04b,0ff,0ff,0df,0df,0ce,0ce,0ff,0ce
+100:0ff,0ce,0ce,07f,0df,0ce,0ce,0ff,0df,0ce,04b,0df
+100:0ce,0df,0ff,0ce,0ff,0df,0ff,04b,0ff,0ff,07f,0ce
+100:0ff,0df,0ce,0ce,04b,0ce,0ce,07f,0ff,0ff,0df,0ce
+100:04b,0ce,0ce,0df,07f,0ff,0ce,0ff,0ce,04b,0ce,0ff
+100:07f,0df,0df,0df,0ce,0ff,0ce,04b,0df,07f,0df,0ce
+100:0df,0ff,0ce,0df,0ff,04b,0ce,07f,0ce,0ff,0ce,0ff
+100:0df,0ce,0ce,0df,0ce,07f,0df,0df,0ff,0ce,0ce,04b
+100:0ff,0ce,0ff,0df,0ce,0ff,0ce,0df,04b,0df,0ce,07f
+100:0ce,0df,04b,0ce,0ce,0df,0ff,0df,07f,0ff,0df,0ce

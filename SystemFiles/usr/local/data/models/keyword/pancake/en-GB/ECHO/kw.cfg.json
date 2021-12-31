@@ -1,0 +1,203 @@
+{
+  "acoustic-model": {
+    "non-speech-pdf": -2,
+    "speech-pdf": -1
+  },
+  "keyword-orchestra": {
+    "buffer-size": 200,
+    "keyword-spotters": [
+      {
+        "classifier": {
+          "type": "vector-space",
+          "vector-space": {
+            "vector-space-classifier": {
+              "map": [
+                {
+                  "classifier": {
+                    "normalized-vector-space-classifier": {
+                      "classifier": {
+                        "svm": {
+                          "filename": "ECHO.psvm",
+                          "probabilistic": false
+                        },
+                        "type": "svm"
+                      },
+                      "normalizer": {
+                        "scale": {
+                          "filename": "ECHO.scales"
+                        },
+                        "type": "scale"
+                      }
+                    },
+                    "type": "normalized-vector-space-classifier"
+                  },
+                  "name": "ECHO"
+                }
+              ],
+              "type": "map"
+            },
+            "vector-space-mapper": {
+              "type": "version1",
+              "version1": {
+                "add-context-features": true,
+                "log-energy-feature-begin-index": 400,
+                "log-energy-feature-end-index": 420,
+                "sns-smoothing-context": 5,
+                "sns-speech-prior": 0.5
+              }
+            }
+          }
+        },
+        "hmm": {
+          "bg": {
+            "filename": "ECHO.bg.hclg.pfst",
+            "type": "pryon-fst"
+          },
+          "fg": {
+            "filename": "ECHO.fg.hclg.pfst",
+            "type": "pryon-fst"
+          },
+          "search-space": {
+            "beam": 25.0,
+            "block-size": 1024,
+            "max-depth": 200
+          },
+          "window-size": 6
+        },
+        "name": "ECHO",
+        "spotter": {
+          "classification-limits": {
+            "max-per-window": 6,
+            "stickiness": 0,
+            "window-size": 100
+          },
+          "classification-thresholds": {
+            "accept-threshold": 0.8,
+            "escalate-threshold": 1e+37,
+            "notify-threshold": -0.8,
+            "overrides": [
+              {
+                "accept-threshold": 0.4,
+                "clientProperties": [
+                  {
+                    "equals": 1,
+                    "name": "AudioPlayerState"
+                  }
+                ],
+                "notify-threshold": -0.8
+              },
+              {
+                "accept-threshold": 0.4,
+                "clientProperties": [
+                  {
+                    "equals": 1,
+                    "name": "audio_playback"
+                  }
+                ],
+                "notify-threshold": -0.8
+              },
+              {
+                "accept-threshold": 0.4,
+                "clientProperties": [
+                  {
+                    "equals": 1,
+                    "name": "AlarmState"
+                  }
+                ],
+                "notify-threshold": -0.8
+              }
+            ]
+          },
+          "cleanup-period": 6000,
+          "escalation-period": 500,
+          "hmm-thresholds": {
+            "accept-threshold": 0.0,
+            "escalate-threshold": 1e+37,
+            "notify-threshold": 1e+37
+          },
+          "lock-period": 40
+        }
+      },
+      {
+        "classifier": {
+          "type": "vector-space",
+          "vector-space": {
+            "vector-space-classifier": {
+              "trivial": {
+                "score": 0.0
+              },
+              "type": "trivial"
+            },
+            "vector-space-mapper": {
+              "type": "version1",
+              "version1": {}
+            }
+          }
+        },
+        "hmm": {
+          "bg": {
+            "filename": "STOP.bg.hclg.pfst",
+            "type": "pryon-fst"
+          },
+          "fg": {
+            "filename": "STOP.fg.hclg.pfst",
+            "type": "pryon-fst"
+          },
+          "search-space": {
+            "beam": 25.0,
+            "block-size": 1024,
+            "max-depth": 200
+          },
+          "window-size": 6
+        },
+        "name": "STOP",
+        "spotter": {
+          "classification-limits": {
+            "max-per-window": 6,
+            "stickiness": 0,
+            "window-size": 100
+          },
+          "classification-thresholds": {
+            "accept-threshold": 0.0,
+            "escalate-threshold": 1e+37,
+            "notify-threshold": 1e+37
+          },
+          "cleanup-period": 6000,
+          "escalation-period": 500,
+          "hmm-thresholds": {
+            "accept-threshold": 0.0,
+            "escalate-threshold": 1e+37,
+            "notify-threshold": 1e+37
+          },
+          "lock-period": 40
+        }
+      }
+    ]
+  },
+  "keyword-orchestra-monitor": {
+    "statistics": {
+      "classification": {
+        "histogram": {
+          "max": 4,
+          "min": -4,
+          "size": 50
+        }
+      },
+      "segmentation": {
+        "histogram": {
+          "max": 40,
+          "min": -30,
+          "size": 50
+        }
+      }
+    }
+  },
+  "object_type_name": "keyword-spotter-orchestra-config",
+  "object_type_version": 2,
+  "phone-symbol-table": {
+    "filename": "phones.txt"
+  },
+  "word-symbol-table": {
+    "filename": "words.shrunk.txt"
+  }
+}

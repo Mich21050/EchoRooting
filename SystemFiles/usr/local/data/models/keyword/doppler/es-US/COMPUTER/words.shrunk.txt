@@ -1,0 +1,3 @@
+<eps>	0
+STOP		185
+COMPUTER	187
