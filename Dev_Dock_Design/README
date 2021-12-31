@@ -1,1 +1,4 @@
 Design files for my Development Docking Station. My aim was to build my own "dev kit" using a usb uart bridge sd reader and on/off switch.
+Switch: https://www.conrad.at/de/p/tru-components-1pu-kippschalter-250-v-ac-1-5-a-1-x-ein-ein-rastend-1-st-1564808.html or Generic 4mm switch
+Cable: https://www.amazon.de/gp/product/B08WWSV2QZ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+Uart bridge: Had one laying around; just buy a generic usb uart converter
