@@ -1,0 +1,3 @@
+[submodule "dbusDebug/dbusParser"]
+	path = dbusDebug/dbusParser
+	url = https://github.com/Mich21050/dbusParser
