@@ -4,3 +4,4 @@
 [submodule "EchoSystemFiles"]
 	path = EchoSystemFiles
 	url = https://github.com/Mich21050/EchoSystemFiles
+	branch = main
