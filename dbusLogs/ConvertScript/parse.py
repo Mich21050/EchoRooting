@@ -63,15 +63,21 @@ print(json.dumps(parsD))
 with open('out.json','w') as fS:
     fS.write(json.dumps(parsD, indent=4))
 
+fC = open('outCmd.txt','w')
+cmdLi = []
 for el in parsD:
-    fC = open('outCmd.txt','x')
     curM = el['main']
     if curM['dest'] == None:
         cmdS = 'dbus-send --systen --type:{type} {path} {pathMem}'.format(type =curM['type'], pathMem = curM['interface'] + '.' + curM['member'], path = '/' + curM['interface'].replace('.','/'))
     else:
         cmdS = 'dbus-send --systen --type:{type} --dest:{dest} {path} {pathMem}'.format(type =curM['type'], pathMem = curM['interface'] + '.' + curM['member'], path = '/' + curM['interface'].replace('.','/'),dest=curM['dest'])
     for elS in el['data']:
-        cmdS += ' {type}:"{value}"'.format(type=elS['type'], value=elS['value'])
+        if elS['type'] == 'string':
+            cmdS += ' {type}:"{value}"'.format(type=elS['type'], value=elS['value'])
+        else:
+            cmdS += ' {type}:{value}'.format(type=elS['type'], value=elS['value'])
     print(cmdS)
-    fC.write(cmdS)
-    fC.close()
+    cmdLi.append(cmdS)
+for wEl in cmdLi:
+    fC.write(wEl + '\n')
+fC.close()

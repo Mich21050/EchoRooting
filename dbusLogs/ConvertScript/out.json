@@ -1,0 +1,40 @@
+[
+    {
+        "main": {
+            "type": "signal",
+            "sender": ":1.4",
+            "dest": null,
+            "serial": "55",
+            "interface": "com.doppler.ledd",
+            "member": "LedPatternChanged",
+            "path": "/default"
+        },
+        "data": [
+            {
+                "type": "string",
+                "value": "active-start"
+            }
+        ]
+    },
+    {
+        "main": {
+            "type": "signal",
+            "sender": ":1.20",
+            "dest": null,
+            "serial": "133",
+            "interface": "com.doppler.alexad",
+            "member": "messageAckEvent",
+            "path": "/default"
+        },
+        "data": [
+            {
+                "type": "string",
+                "value": "63514b23-b5f8-495e-b0b0-d7c10db14041"
+            },
+            {
+                "type": "int32",
+                "value": "0"
+            }
+        ]
+    }
+]

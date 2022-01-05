@@ -1,0 +1,2 @@
+dbus-send --systen --type:signal /com/doppler/ledd com.doppler.ledd.LedPatternChanged string:"active-start"
+dbus-send --systen --type:signal /com/doppler/alexad com.doppler.alexad.messageAckEvent string:"63514b23-b5f8-495e-b0b0-d7c10db14041" int32:0

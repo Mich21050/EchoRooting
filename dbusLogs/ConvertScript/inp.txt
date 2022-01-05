@@ -1,0 +1,5 @@
+signal sender=:1.4 -> dest=(null destination) serial=55 path=/default; interface=com.doppler.ledd; member=LedPatternChanged
+   string "active-start"
+signal sender=:1.20 -> dest=(null destination) serial=133 path=/default; interface=com.doppler.alexad; member=messageAckEvent
+   string "63514b23-b5f8-495e-b0b0-d7c10db14041"
+   int32 0
