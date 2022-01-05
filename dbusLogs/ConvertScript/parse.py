@@ -68,9 +68,9 @@ cmdLi = []
 for el in parsD:
     curM = el['main']
     if curM['dest'] == None:
-        cmdS = 'dbus-send --systen --type:{type} {path} {pathMem}'.format(type =curM['type'], pathMem = curM['interface'] + '.' + curM['member'], path = '/' + curM['interface'].replace('.','/'))
+        cmdS = 'dbus-send --system --type={type} {path} {pathMem}'.format(type =curM['type'], pathMem = curM['interface'] + '.' + curM['member'], path = '/' + curM['interface'].replace('.','/'))
     else:
-        cmdS = 'dbus-send --systen --type:{type} --dest:{dest} {path} {pathMem}'.format(type =curM['type'], pathMem = curM['interface'] + '.' + curM['member'], path = '/' + curM['interface'].replace('.','/'),dest=curM['dest'])
+        cmdS = 'dbus-send --system --type={type} --dest={dest} {path} {pathMem}'.format(type =curM['type'].replace(' ','_'), pathMem = curM['interface'] + '.' + curM['member'], path = '/' + curM['interface'].replace('.','/'),dest=curM['dest'])
     for elS in el['data']:
         if elS['type'] == 'string':
             cmdS += ' {type}:"{value}"'.format(type=elS['type'], value=elS['value'])

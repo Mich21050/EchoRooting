@@ -1,2 +1,29 @@
-dbus-send --systen --type:signal /com/doppler/ledd com.doppler.ledd.LedPatternChanged string:"active-start"
-dbus-send --systen --type:signal /com/doppler/alexad com.doppler.alexad.messageAckEvent string:"63514b23-b5f8-495e-b0b0-d7c10db14041" int32:0
+dbus-send --system --type=method_call --dest=com.doppler.conductor.alexa /com/doppler/conductor/alexa com.doppler.conductor.alexa.setalexaMessageHas uint32:1 uint32:876370598
+dbus-send --system --type=method_call --dest=com.doppler.alexaSpeechPlayer.conductor /com/doppler/alexaSpeechPlayer/conductor com.doppler.alexaSpeechPlayer.conductor.setalexaMessageHas uint32:0 uint32:1924659506
+dbus-send --system --type=signal /com/doppler/conductor/conductor com.doppler.conductor.conductor.mixingBehaviorChanged int32:2
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"sentence" string:"Es" uint64:0
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"word" string:"Es" uint64:12
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"E" uint64:12
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"s" uint64:187
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"word" string:"ist" uint64:250
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"" uint64:250
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"i" uint64:312
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"s" uint64:337
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"t" uint64:375
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"word" string:"01:04" uint64:500
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"" uint64:500
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"a" uint64:575
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"t" uint64:625
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"" uint64:687
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"u" uint64:812
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"a" uint64:862
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"f" uint64:937
+dbus-send --system --type=method_call --dest=com.doppler.alexaSpeechPlayer.conductor /com/doppler/alexaSpeechPlayer/conductor com.doppler.alexaSpeechPlayer.conductor.setsendHandleMessageStr string:"203a9ebf-e470-4f00-ba39-a3c96d80f253"
+dbus-send --system --type=signal /com/doppler/conductor/conductor com.doppler.conductor.conductor.streamInProgressChanged int32:1
+dbus-send --system --type=signal /com/doppler/alexad com.doppler.alexad.thinkingModeEndMessageReceived string:"1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"i" uint64:1000
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"a" uint64:1137
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"viseme" string:"sil" uint64:1250
+dbus-send --system --type=signal /com/doppler/alexaSpeechPlayer com.doppler.alexaSpeechPlayer.speechmarksEvent string:"eos" string:"eos" uint64:1464
+dbus-send --system --type=method_call --dest=com.doppler.alexad /com/doppler/alexad com.doppler.alexad.setstopThinkingModeStr string:"1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+dbus-send --system --type=signal /com/doppler/alexad com.doppler.alexad.thinkingModeStateChanged int32:0 string:"1267c18d-1bc2-4dbd-a602-66957b9cc86d"
