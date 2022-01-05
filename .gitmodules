@@ -1,3 +1,6 @@
 [submodule "dbusDebug/dbusParser"]
 	path = dbusDebug/dbusParser
 	url = https://github.com/Mich21050/dbusParser
+[submodule "EchoSystemFiles"]
+	path = EchoSystemFiles
+	url = https://github.com/Mich21050/EchoSystemFiles
