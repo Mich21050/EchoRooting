@@ -1,0 +1,321 @@
+signal sender=org.freedesktop.DBus -> dest=:1.116 serial=2 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=NameAcquired
+   string ":1.116"
+method call sender=:1.116 -> dest=org.freedesktop.DBus serial=3 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=AddMatch
+   string "type='method_call'"
+method call sender=:1.116 -> dest=org.freedesktop.DBus serial=4 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=AddMatch
+   string "type='method_return'"
+method call sender=:1.116 -> dest=org.freedesktop.DBus serial=5 path=/org/freedesktop/DBus; interface=org.freedesktop.DBus; member=AddMatch
+   string "type='error'"
+signal sender=:1.68 -> dest=(null destination) serial=6289 path=/default; interface=com.doppler.audio; member=beamDir
+   int32 2
+signal sender=:1.83 -> dest=(null destination) serial=72 path=/default; interface=com.doppler.asr; member=metricWakeWordDetected
+   uint64 22213733
+   string "1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+signal sender=:1.83 -> dest=(null destination) serial=73 path=/default; interface=com.doppler.asr; member=FoundKeyword
+   uint64 354864192
+   uint64 22212297
+   uint64 1641341080859
+   uint64 8000
+   uint64 18720
+   uint64 1000
+   string "1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+   uint64 1688
+   uint64 1688
+signal sender=:1.27 -> dest=(null destination) serial=554 path=/default; interface=com.doppler.controld; member=wakeWordFiredChanged
+   string "yes"
+method call sender=:1.47 -> dest=com.doppler.player serial=36 path=/default; interface=com.doppler.player; member=getURLPlaybackStateStr
+signal sender=:1.47 -> dest=(null destination) serial=37 path=/default; interface=com.doppler.audioencoderd; member=audioEncoderStateChanged
+   int32 1
+   uint64 354864192
+   uint64 22212297
+   string "1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+method call sender=:1.47 -> dest=com.doppler.alexaSpeechPlayer serial=38 path=/default; interface=com.doppler.alexaSpeechPlayer; member=getVoiceStateStr
+method call sender=:1.45 -> dest=com.doppler.alexad.alexa serial=6 path=/default; interface=com.doppler.alexad.alexa; member=setalexaMessageHas
+   uint32 0
+   uint32 680507439
+signal sender=:1.47 -> dest=(null destination) serial=39 path=/default; interface=com.doppler.audioencoderd; member=encoderStreamingStarted
+   string "1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+signal sender=:1.6 -> dest=(null destination) serial=55 path=/default; interface=com.doppler.conductor.conductor; member=dialogSessionStateChanged
+   int32 1
+method call sender=:1.69 -> dest=com.doppler.alexad.alexa serial=6 path=/default; interface=com.doppler.alexad.alexa; member=setalexaMessageHas
+   uint32 0
+   uint32 1285658182
+signal sender=:1.83 -> dest=(null destination) serial=74 path=/default; interface=com.doppler.asr; member=StateChanged
+   string "waitingForLocalCmdOrTimeout"
+signal sender=:1.47 -> dest=(null destination) serial=40 path=/default; interface=com.doppler.audioencoderd; member=encodingStarted
+signal sender=:1.47 -> dest=(null destination) serial=41 path=/default; interface=com.doppler.audioencoderd; member=EncoderStartStreaming
+   uint64 22213788
+   string "1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+signal sender=:1.25 -> dest=(null destination) serial=22 path=/default; interface=com.doppler.idled; member=lastActiveTime
+   int32 -1
+signal sender=:1.47 -> dest=(null destination) serial=42 path=/default; interface=com.doppler.audioencoderd; member=voiceRequestIdChanged
+   string "1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+signal sender=:1.20 -> dest=(null destination) serial=131 path=/default; interface=com.doppler.alexad; member=ASRStreamOpenedDataWritten
+   uint64 22213819
+   string "1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+signal sender=:1.20 -> dest=(null destination) serial=132 path=/default; interface=com.doppler.alexad; member=messageAckEvent
+   string "a0432ecf-0faa-43db-8067-29fc4402ceac"
+   int32 0
+signal sender=:1.27 -> dest=(null destination) serial=555 path=/default; interface=com.doppler.controld; member=OTAIdleControlChanged
+   string "immediate"
+method call sender=:1.27 -> dest=com.doppler.audiod serial=556 path=/default; interface=com.doppler.audiod; member=setmodeStr
+   string "Attenuated"
+signal sender=:1.49 -> dest=(null destination) serial=34 path=/default; interface=com.doppler.audiod; member=audioModeChanged
+   string "Attenuated"
+signal sender=:1.27 -> dest=(null destination) serial=557 path=/default; interface=com.doppler.controld; member=audiomodeChanged
+   string "attenuated"
+method call sender=:1.27 -> dest=com.doppler.ledd serial=558 path=/default; interface=com.doppler.ledd; member=setPatternStr
+   string "active-start"
+signal sender=:1.4 -> dest=(null destination) serial=54 path=/default; interface=com.doppler.ledd; member=WakeWordLEDComplete
+   uint64 22213887
+   string ""
+signal sender=:1.4 -> dest=(null destination) serial=55 path=/default; interface=com.doppler.ledd; member=LedPatternChanged
+   string "active-start"
+signal sender=:1.20 -> dest=(null destination) serial=133 path=/default; interface=com.doppler.alexad; member=messageAckEvent
+   string "63514b23-b5f8-495e-b0b0-d7c10db14041"
+   int32 0
+signal sender=:1.27 -> dest=(null destination) serial=559 path=/default; interface=com.doppler.controld; member=ledringChanged
+   string "SendingDataToAlexa"
+signal sender=:1.27 -> dest=(null destination) serial=560 path=/default; interface=com.doppler.controld; member=turntakingChanged
+   string "indialog"
+signal sender=:1.27 -> dest=(null destination) serial=561 path=/default; interface=com.doppler.controld; member=usertaskChanged
+   string "inprogress"
+signal sender=:1.20 -> dest=(null destination) serial=134 path=/default; interface=com.doppler.alexad; member=asrStreamIdChanged
+   string "AB72C64C86AW2:1.0/2022/01/05/00/DEVICE_UNSPECIFIED/04:42::TNIH_2V.db919708-6968-4693-9e47-e22e41242be7LPM"
+   string "1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+signal sender=:1.83 -> dest=(null destination) serial=75 path=/default; interface=com.doppler.asr; member=StateChanged
+   string "localCmdTimeout"
+signal sender=:1.83 -> dest=(null destination) serial=76 path=/default; interface=com.doppler.asr; member=StateChanged
+   string "waitingForWakeword"
+signal sender=:1.20 -> dest=(null destination) serial=135 path=/default; interface=com.doppler.alexad; member=thinkingModeStateChanged
+   int32 1
+   string "1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+method call sender=:1.27 -> dest=com.doppler.ledd serial=562 path=/default; interface=com.doppler.ledd; member=setPatternStr
+   string "active-thinking"
+signal sender=:1.4 -> dest=(null destination) serial=58 path=/default; interface=com.doppler.ledd; member=LedPatternChanged
+   string "active-thinking"
+signal sender=:1.20 -> dest=(null destination) serial=136 path=/default; interface=com.doppler.alexad; member=metricThinkingModeStart
+   uint64 22215465
+   string "1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+signal sender=:1.27 -> dest=(null destination) serial=563 path=/default; interface=com.doppler.controld; member=ledringChanged
+   string "AlexaThinking"
+signal sender=:1.27 -> dest=(null destination) serial=564 path=/default; interface=com.doppler.controld; member=thinkinglatchChanged
+   string "inthinking"
+method call sender=:1.21 -> dest=com.doppler.conductor.alexa serial=104 path=/default; interface=com.doppler.conductor.alexa; member=setalexaMessageHas
+   uint32 1
+   uint32 876370598
+method call sender=:1.6 -> dest=com.doppler.alexaSpeechPlayer.conductor serial=56 path=/default; interface=com.doppler.alexaSpeechPlayer.conductor; member=setalexaMessageHas
+   uint32 0
+   uint32 1924659506
+signal sender=:1.6 -> dest=(null destination) serial=57 path=/default; interface=com.doppler.conductor.conductor; member=mixingBehaviorChanged
+   int32 2
+signal sender=:1.101 -> dest=(null destination) serial=36 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "sentence"
+   string "Es ist 01:04."
+   uint64 0
+signal sender=:1.101 -> dest=(null destination) serial=37 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "word"
+   string "Es"
+   uint64 12
+signal sender=:1.101 -> dest=(null destination) serial=38 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string "E"
+   uint64 12
+signal sender=:1.101 -> dest=(null destination) serial=39 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string "s"
+   uint64 187
+signal sender=:1.101 -> dest=(null destination) serial=40 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "word"
+   string "ist"
+   uint64 250
+signal sender=:1.101 -> dest=(null destination) serial=41 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string ""
+   uint64 250
+signal sender=:1.101 -> dest=(null destination) serial=42 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string "i"
+   uint64 312
+signal sender=:1.101 -> dest=(null destination) serial=43 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string "s"
+   uint64 337
+signal sender=:1.101 -> dest=(null destination) serial=44 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string "t"
+   uint64 375
+signal sender=:1.101 -> dest=(null destination) serial=45 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "word"
+   string "01:04"
+   uint64 500
+signal sender=:1.101 -> dest=(null destination) serial=46 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string ""
+   uint64 500
+signal sender=:1.101 -> dest=(null destination) serial=47 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string "a"
+   uint64 575
+signal sender=:1.101 -> dest=(null destination) serial=48 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string "t"
+   uint64 625
+signal sender=:1.101 -> dest=(null destination) serial=49 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string ""
+   uint64 687
+signal sender=:1.101 -> dest=(null destination) serial=50 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string "u"
+   uint64 812
+signal sender=:1.101 -> dest=(null destination) serial=51 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string "a"
+   uint64 862
+signal sender=:1.101 -> dest=(null destination) serial=52 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string "f"
+   uint64 937
+method call sender=:1.6 -> dest=com.doppler.alexaSpeechPlayer.conductor serial=58 path=/default; interface=com.doppler.alexaSpeechPlayer.conductor; member=setsendHandleMessageStr
+   string "203a9ebf-e470-4f00-ba39-a3c96d80f253"
+signal sender=:1.6 -> dest=(null destination) serial=59 path=/default; interface=com.doppler.conductor.conductor; member=streamInProgressChanged
+   int32 1
+signal sender=:1.20 -> dest=(null destination) serial=137 path=/default; interface=com.doppler.alexad; member=thinkingModeEndMessageReceived
+   string "1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+signal sender=:1.101 -> dest=(null destination) serial=53 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string "i"
+   uint64 1000
+signal sender=:1.101 -> dest=(null destination) serial=54 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string "a"
+   uint64 1137
+signal sender=:1.101 -> dest=(null destination) serial=55 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "viseme"
+   string "sil"
+   uint64 1250
+signal sender=:1.101 -> dest=(null destination) serial=56 path=/default; interface=com.doppler.alexaSpeechPlayer; member=speechmarksEvent
+   string "eos"
+   string "eos"
+   uint64 1464
+method call sender=:1.101 -> dest=com.doppler.alexad serial=57 path=/default; interface=com.doppler.alexad; member=setstopThinkingModeStr
+   string "1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+signal sender=:1.20 -> dest=(null destination) serial=138 path=/default; interface=com.doppler.alexad; member=thinkingModeStateChanged
+   int32 0
+   string "1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+signal sender=:1.47 -> dest=(null destination) serial=43 path=/default; interface=com.doppler.audioencoderd; member=encodingStopped
+signal sender=:1.47 -> dest=(null destination) serial=44 path=/default; interface=com.doppler.audioencoderd; member=audioEncoderStateChanged
+   int32 0
+signal sender=:1.27 -> dest=(null destination) serial=565 path=/default; interface=com.doppler.controld; member=thinkinglatchChanged
+   string "pastthinking"
+signal sender=:1.101 -> dest=(null destination) serial=58 path=/default; interface=com.doppler.alexaSpeechPlayer; member=TTSPlayerStateChanged
+   int32 1
+   string "AB72C64C86AW2:1.0/2022/01/05/00/DEVICE_UNSPECIFIED/04:42::TNIH_2V.db919708-6968-4693-9e47-e22e41242be7LPM"
+   string "AB72C64C86AW2:1.0/2022/01/05/00/DEVICE_UNSPECIFIED/04:42::TNIH_2V.db919708-6968-4693-9e47-e22e41242be7LPM/1"
+signal sender=:1.27 -> dest=(null destination) serial=566 path=/default; interface=com.doppler.controld; member=ModeBeforeDialogChanged
+   string "tts"
+signal sender=:1.68 -> dest=(null destination) serial=6290 path=/default; interface=com.doppler.audio; member=audioSilenceTransition
+   string "start"
+   uint64 22215921
+method call sender=:1.27 -> dest=com.doppler.controld serial=567 path=/default; interface=com.doppler.controld; member=setTimerSetStr
+   string "IdleReboot 900000"
+signal sender=:1.27 -> dest=(null destination) serial=568 path=/default; interface=com.doppler.controld; member=timerIdleRebootChanged
+   int32 1
+method call sender=:1.102 -> dest=com.doppler.alexad.alexa serial=11 path=/default; interface=com.doppler.alexad.alexa; member=setalexaMessageHas
+   uint32 1
+   uint32 1623340082
+method call sender=:1.27 -> dest=com.doppler.controld serial=570 path=/default; interface=com.doppler.controld; member=setTimerSetStr
+   string "IdleResetDelay 30000"
+signal sender=:1.27 -> dest=(null destination) serial=571 path=/default; interface=com.doppler.controld; member=timerIdleResetDelayChanged
+   int32 1
+signal sender=:1.20 -> dest=(null destination) serial=140 path=/default; interface=com.doppler.alexad; member=messageAckEvent
+   string "641d25f9-1fb4-43a9-a93e-37a7c20836ef"
+   int32 0
+signal sender=:1.27 -> dest=(null destination) serial=573 path=/default; interface=com.doppler.controld; member=OTAIdleControlChanged
+   string "settimer"
+method call sender=:1.27 -> dest=com.doppler.ledd serial=574 path=/default; interface=com.doppler.ledd; member=setPatternStr
+   string "active-talking"
+signal sender=:1.4 -> dest=(null destination) serial=60 path=/default; interface=com.doppler.ledd; member=LedPatternChanged
+   string "active-talking"
+signal sender=:1.27 -> dest=(null destination) serial=575 path=/default; interface=com.doppler.controld; member=ledringChanged
+   string "TTSFromAlexa"
+signal sender=:1.27 -> dest=(null destination) serial=576 path=/default; interface=com.doppler.controld; member=thinkinglatchChanged
+   string "beforethinking"
+signal sender=:1.27 -> dest=(null destination) serial=577 path=/default; interface=com.doppler.controld; member=OTAIdleChanged
+   string "no"
+method call sender=:1.21 -> dest=com.doppler.audioencoderd.alexa serial=106 path=/default; interface=com.doppler.audioencoderd.alexa; member=setalexaMessageHas
+   uint32 1
+   uint32 478606583
+signal sender=:1.47 -> dest=(null destination) serial=45 path=/default; interface=com.doppler.audioencoderd; member=serverRequestedStopEncoding
+signal sender=:1.68 -> dest=(null destination) serial=6291 path=/default; interface=com.doppler.audio; member=beamDir
+   int32 9
+signal sender=:1.68 -> dest=(null destination) serial=6292 path=/default; interface=com.doppler.audio; member=beamDir
+   int32 8
+signal sender=:1.68 -> dest=(null destination) serial=6293 path=/default; interface=com.doppler.audio; member=audioSilenceTransition
+   string "stop"
+   uint64 22217343
+signal sender=:1.101 -> dest=(null destination) serial=59 path=/default; interface=com.doppler.alexaSpeechPlayer; member=metricTTSPlaybackFinished
+   uint64 22217628
+   string "1267c18d-1bc2-4dbd-a602-66957b9cc86d"
+signal sender=:1.101 -> dest=(null destination) serial=60 path=/default; interface=com.doppler.alexaSpeechPlayer; member=TTSPlayerStateChanged
+   int32 0
+   string "AB72C64C86AW2:1.0/2022/01/05/00/DEVICE_UNSPECIFIED/04:42::TNIH_2V.db919708-6968-4693-9e47-e22e41242be7LPM"
+   string "AB72C64C86AW2:1.0/2022/01/05/00/DEVICE_UNSPECIFIED/04:42::TNIH_2V.db919708-6968-4693-9e47-e22e41242be7LPM/1"
+method call sender=:1.102 -> dest=com.doppler.conductor.conductor serial=12 path=/default; interface=com.doppler.conductor.conductor; member=setsendMessageHandledHas
+   uint32 1
+   uint32 225265651
+signal sender=:1.6 -> dest=(null destination) serial=61 path=/default; interface=com.doppler.conductor.conductor; member=streamInProgressChanged
+   int32 0
+method call sender=:1.102 -> dest=com.doppler.alexad.alexa serial=13 path=/default; interface=com.doppler.alexad.alexa; member=setalexaMessageHas
+   uint32 1
+   uint32 996139154
+signal sender=:1.20 -> dest=(null destination) serial=141 path=/default; interface=com.doppler.alexad; member=messageAckEvent
+   string "1d949366-fc80-4139-80ed-2b49a5d05036"
+   int32 0
+signal sender=:1.25 -> dest=(null destination) serial=23 path=/default; interface=com.doppler.idled; member=lastActiveTime
+   int32 0
+signal sender=:1.6 -> dest=(null destination) serial=62 path=/default; interface=com.doppler.conductor.conductor; member=dialogSessionStateChanged
+   int32 0
+signal sender=:1.6 -> dest=(null destination) serial=63 path=/default; interface=com.doppler.conductor.conductor; member=mixingBehaviorChanged
+   int32 1
+signal sender=:1.27 -> dest=(null destination) serial=578 path=/default; interface=com.doppler.controld; member=ModeBeforeDialogChanged
+   string "none"
+signal sender=:1.27 -> dest=(null destination) serial=579 path=/default; interface=com.doppler.controld; member=WakeWordConsumedChanged
+   string "handled"
+method call sender=:1.27 -> dest=com.doppler.ledd serial=580 path=/default; interface=com.doppler.ledd; member=setPatternStr
+   string "active-end"
+signal sender=:1.4 -> dest=(null destination) serial=62 path=/default; interface=com.doppler.ledd; member=LedPatternChanged
+   string "active-end"
+signal sender=:1.27 -> dest=(null destination) serial=581 path=/default; interface=com.doppler.controld; member=ledringChanged
+   string "AlexaDialogEnd"
+signal sender=:1.27 -> dest=(null destination) serial=582 path=/default; interface=com.doppler.controld; member=turntakingChanged
+   string "nodialog"
+signal sender=:1.27 -> dest=(null destination) serial=583 path=/default; interface=com.doppler.controld; member=usertaskChanged
+   string "none"
+method call sender=:1.27 -> dest=com.doppler.audiod serial=584 path=/default; interface=com.doppler.audiod; member=setmodeStr
+   string "Music"
+signal sender=:1.49 -> dest=(null destination) serial=36 path=/default; interface=com.doppler.audiod; member=audioModeChanged
+   string "Music"
+signal sender=:1.27 -> dest=(null destination) serial=585 path=/default; interface=com.doppler.controld; member=audiomodeChanged
+   string "default"
+method call sender=:1.27 -> dest=com.doppler.controld serial=586 path=/default; interface=com.doppler.controld; member=setwakeWordFiredStr
+   string "no"
+signal sender=:1.27 -> dest=(null destination) serial=587 path=/default; interface=com.doppler.controld; member=wakeWordFiredChanged
+   string "no"
+method call sender=:1.27 -> dest=com.doppler.controld serial=589 path=/default; interface=com.doppler.controld; member=setTimerSetStr
+   string "WakeWordFired 20"
+signal sender=:1.27 -> dest=(null destination) serial=590 path=/default; interface=com.doppler.controld; member=timerWakeWordFiredChanged
+   int32 1
+signal sender=:1.27 -> dest=(null destination) serial=592 path=/default; interface=com.doppler.controld; member=WakeWordConsumedChanged
+   string "clear"
+method call sender=:1.27 -> dest=com.doppler.ledd serial=593 path=/default; interface=com.doppler.ledd; member=setPatternStr
+   string "off"
+signal sender=:1.27 -> dest=(null destination) serial=594 path=/default; interface=com.doppler.controld; member=ledringChanged
+   string "lightsoff"
+signal sender=:1.27 -> dest=(null destination) serial=595 path=/default; interface=com.doppler.controld; member=timerWakeWordFiredChanged
+   int32 0
+signal sender=:1.27 -> dest=(null destination) serial=596 path=/default; interface=com.doppler.controld; member=WakeWordConsumedChanged
+   string "ready"
+signal sender=:1.4 -> dest=(null destination) serial=64 path=/default; interface=com.doppler.ledd; member=LedPatternChanged
+   string "off"
