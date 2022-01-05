@@ -1,2 +1,0 @@
-ALEXA 1
-STOP 3
