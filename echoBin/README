@@ -1,2 +1,3 @@
 Compiled binarys including libraries for espeak,ssh and porcupine
-TODO: Add easy install script
+Porcupine does run but doesn't work properly with all alexa services running
+TODO: Test install scripts
