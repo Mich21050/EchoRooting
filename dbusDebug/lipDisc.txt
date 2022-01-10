@@ -1,0 +1,955 @@
+com.lab126.todo
+	w 	Str	scheduleToDoItems
+	r	Int	driveAvailInternally	[0]
+	w	Int	disableToDo
+	w	Str	wifiPopupDone
+	w	Str	wirelessOn
+	w	Int	enableToDo
+	w	Str	captivePortalResponse
+	w	Str	isToDoAvailable
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	rw	Str	logMask	[0x0fff0000]
+	w	Int	scheduleToDo
+	w	Str	reportStatus
+com.doppler.gadgetsd.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.btmd.remote
+com.doppler.hallo.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.cmbd
+	w 	Str	wifiPopupDone
+	w	Str	captivePortalResponse
+	w	Str	wirelessOn
+com.doppler.whatify.whad
+	w 	Str	sendStopCluster
+	rw	Has	sendResumeCluster	[*NOT SHOWN*]
+	w	Str	sendClearCluster
+	w	Str	sendHandleMessage
+	w	Str	sendCancelMessage
+	rw	Has	sendHandleAtMessage	[*NOT SHOWN*]
+	rw	Has	sendPauseResumeMessage	[*NOT SHOWN*]
+	rw	Has	alexaMessage	[*NOT SHOWN*]
+	rw	Has	sendMessageHandled	[*NOT SHOWN*]
+com.doppler.btmd.bluetooth
+	w 	Str	cancel
+	w	Str	pause
+	r	Str	activeDevice	[none]
+	w	Str	hangup
+	r	Str	state	[disconnected]
+	w	Str	disable
+	rw	Int	usereventstate	[0]
+	r	Int	streamingBluetooth	[0]
+	w	Str	reject
+	w	Str	stop
+	r	Int	devicePaired	[0]
+	w	Str	answer
+	r	Str	PairingMode	[Idle]
+	w	Str	forward
+	w	Str	enable
+	r	Int	activeDeviceSwitched	[0]
+	w	Str	confirm
+	w	Str	enablePhonePairing
+	w	Str	play
+	r	Int	oobeSconePairing	[0]
+	w	Str	backward
+com.doppler.conductor.bt.media.conductor
+	rw 	Has	sendPauseResumeMessage	[*NOT SHOWN*]
+	rw	Has	alexaMessage	[*NOT SHOWN*]
+	w	Str	sendHandleMessage
+	w	Str	sendCancelMessage
+com.doppler.settingsd
+	r 	Str	ro_com_amazon_doppler_wifi_essid	[SGVpenVuZy1XaUZp]
+	r	Str	com_amazon_doppler_ux_earcon_wakeword	[false]
+	r	Str	com_amazon_doppler_system_doNotDisturb	[false]
+	r	Str	com_amazon_doppler_system_locale	[de-DE]
+	r	Str	com_amazon_doppler_ux_earcon_speechConfirmation	[false]
+	w	Str	wifiPopupDone
+	w	Str	wirelessOn
+	r	Str	com_amazon_doppler_setupModeDisabled	[false]
+	w	Str	captivePortalResponse
+	r	Str	com_amazon_doppler_ui_lightring_notificationPresent	[false]
+	r	Str	com_amazon_doppler_asr_rawDataCaptureRate	[0]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	r	Str	com_amazon_doppler_asr_wakeword	[ALEXA]
+	r	Str	com_amazon_alexa_ascendingAlarmVolume	[disabled]
+	rw	Str	logMask	[0x0fff0000]
+	r	Str	com_amazon_doppler_asr_wakeword_locale	[de-DE]
+	r	Str	com_amazon_doppler_system_alexaEndpoint	[pindorama-eu.amazon.com:443]
+	r	Str	com_amazon_doppler_maxVolumeLimit	[100]
+	r	Str	Alexa_EventDetectionSensor_CloudVerification_acousticConfirmation	[NONE]
+	r	Str	com_amazon_doppler_timezone	[Europe/Vienna]
+com.doppler.controld
+	rw 	Str	wakeWordFired	[no]
+	rw	Int	timerIdleResetDelay	[0]
+	rw	Int	timerWaitError	[-1]
+	rw	Str	remotepairmsg	[begin]
+	rw	Str	powersaveReboot	[]
+	rw	Str	lednotifications	[off]
+	rw	Str	usertask	[none]
+	rw	Str	noticeslatch	[None]
+	rw	Str	audioencoding	[]
+	rw	Str	ledring	[lightsoff]
+	rw	Str	sconepairing	[none]
+	rw	Str	gadgetsnotifications	[off]
+	rw	Int	timerIdleReboot	[-1]
+	rw	Str	thinkinglatch	[beforethinking]
+	rw	Str	AlarmVolumeRampState	[]
+	rw	Str	OTARemote	[sconeMayUpdate]
+	rw	Str	WakeWordPrepare	[]
+	rw	Str	asrfeedback	[]
+	rw	Str	btcall	[]
+	rw	Str	errorplayback	[ready]
+	w	Str	DumpFeatures
+	rw	Str	ModeBeforeDialog	[none]
+	rw	Str	uioAlarmTimerStopped	[no]
+	rw	Str	sysactivity	[done]
+	rw	Str	timedeventmode	[]
+	rw	Str	isOTAReboot	[]
+	rw	Str	sipCallLatch	[]
+	rw	Str	OTAIdle	[yes]
+	rw	Str	audioencoderstate	[ready]
+	rw	Str	sipCallRingState	[]
+	rw	Str	playDisconnectionTone	[]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Str	OTAGadgets	[]
+	rw	Str	inbootsequence	[done]
+	w	Str	TimerSet
+	rw	Int	timerMsgSuppress	[0]
+	rw	Int	timerMsgReplay	[0]
+	rw	Str	mics	[live]
+	rw	Str	notificationmaxtimer	[]
+	rw	Str	turntaking	[nodialog]
+	rw	Str	EqualizerState	[]
+	rw	Str	uioStateAction	[nostate]
+	rw	Str	AlarmType	[]
+	rw	Str	standalonetts	[]
+	rw	Str	OTAUpdate	[normalUpdate]
+	rw	Str	DelayedConnectStateFlag	[]
+	w	Str	Refresh
+	rw	Str	btpairinganim	[idle]
+	rw	Str	OTAIdleControl	[done]
+	rw	Str	localStopFired	[no]
+	r	Int	OOBETutorialMode	[0]
+	rw	Str	dspaudiomode	[default]
+	rw	Str	WakeWordTrigger	[]
+	rw	Str	LocalStopDetected	[]
+	rw	Str	whadlatch	[]
+	rw	Str	btconnect	[]
+	rw	Str	DNDEnabledCache	[false]
+	rw	Int	DistributedDuck	[0]
+	rw	Str	asrbroadcast	[enabled]
+	rw	Int	timerPairingAnim	[-1]
+	rw	Str	bt	[]
+	rw	Str	mutedPlayAction	[done]
+	rw	Str	gadgetpairing	[]
+	rw	Str	mediaplayback	[]
+	w	Int	OOBETutorialModeTimerSet
+	rw	Str	OTA	[waitingForUpdateNotification]
+	rw	Str	connectstate	[connected]
+	rw	Str	volume	[]
+	rw	Str	als	[enable]
+	rw	Str	disconnecterror	[ready]
+	rw	Str	timedevent	[]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	rw	Str	rebootRequestFired	[]
+	rw	Str	WakeWordConsumed	[ready]
+	rw	Str	apstarted	[]
+	rw	Str	audiomode	[default]
+	rw	Int	timerWakeWordFired	[0]
+	rw	Str	asrlocalstop	[]
+	rw	Str	msgattenuate	[]
+	rw	Str	ap	[APDown]
+	rw	Str	VolumeAudible	[yes]
+	rw	Str	deviceregistration	[yes]
+	rw	Str	bootstate	[complete]
+	rw	Str	ReminderState	[]
+	rw	Str	earcon	[none]
+	rw	Str	netlights	[AlexaConnected]
+	rw	Str	dhcpaddressmessage	[ready]
+	rw	Str	devicestatus	[good]
+	rw	Str	ConfigFile	[/usr/local/etc/controld.pb]
+	rw	Int	timerMutedPlay	[-1]
+	rw	Int	timerWaitAlexa	[0]
+com.doppler.remoted
+	r 	Int	debugVoiceIsStreaming	[0]
+	r	Str	remoteOTAState	[remoteOTAStateIdle]
+	rw	Str	logMask	[0xff800000]
+	rw	Str	logLevel	[Current log level=unknown
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	rw	Str	remoteOTAPermission	[remoteOTAPermOkToDownload]
+com.lab126.logUploadDaemon
+	rw 	Has	transferProgressNotification	[*NOT SHOWN*]
+	w	Int	initiateLogUpload
+	w	Str	handleCrashItem
+	rw	Str	logMask	[0x0fff0000]
+	w	Str	handleToDoItem
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+com.doppler.gadgetsd
+	r 	Str	gadgetsOTAState	[gadgetsOTAStateIdle]
+	rw	Str	logMask	[0xff804000]
+	rw	Int	Notices	[0]
+	rw	Str	gadgetsOTAPermission	[gadgetsOTAPermOkToDownload]
+	rw	Str	logLevel	[Current log level=unknown
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+com.doppler.audioencoderd.conductor
+	rw 	Has	sendPauseResumeMessage	[*NOT SHOWN*]
+	rw	Has	alexaMessage	[*NOT SHOWN*]
+	w	Str	sendHandleMessage
+	w	Str	sendCancelMessage
+com.doppler.conductor.localalarmd
+	rw 	Has	sendPauseResumeMessage	[*NOT SHOWN*]
+	rw	Has	alexaMessage	[*NOT SHOWN*]
+	w	Str	sendHandleMessage
+	w	Str	sendCancelMessage
+org.freedesktop.Avahi
+com.doppler.idled
+	r 	Int	lastActiveTime	[638]
+	rw	Str	logMask	[0x0fff0000]
+	r	Int	idleTime	[638]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+com.lab126.dynconfig
+	rw 	Has	transferProgressNotification	[*NOT SHOWN*]
+	rw	Str	logMask	[0x0fff0000]
+	w	Str	handleToDoItem
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+com.doppler.audiod
+	rw 	Int	Attenuation	[20]
+	rw	Int	Mute	[0]
+	rw	Int	BTMediaMute	[0]
+	rw	Int	MainVolume	[48]
+	rw	Int	MaxVolume	[100]
+	rw	Int	AlarmVolume	[40]
+	r	Int	MusicAudible	[1]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Str	mode	[Music]
+	r	Int	TTSAudible	[1]
+	w	Int	ResetAlarmVolume
+	w	Str	AlarmVolumeRampMode
+	rw	Int	PhoneVolume	[40]
+com.doppler.remoted.scone
+	w 	Str	debugForceOTAOnScone
+	rw	Has	debugPairedScones	[*NOT SHOWN*]
+	r	Str	version	[UNKNOWN]
+	w	Str	otaCmd
+	w	Int	debugButtonPressedOnScone
+	r	Str	dsn	[UNKNOWN]
+	r	Str	battery	[UNKNOWN]
+	rw	Has	debugConnectedScones	[*NOT SHOWN*]
+com.doppler.i18nd
+	rw 	Has	endpoints	[*NOT SHOWN*]
+	rw	Str	locale	[de-DE]
+	rw	Str	countryOfResidence	[DE]
+org.bluez
+com.lab126.doppler.aed_manager
+com.doppler.alexaSpeechPlayer.conductor
+	rw 	Has	sendPauseResumeMessage	[*NOT SHOWN*]
+	rw	Has	alexaMessage	[*NOT SHOWN*]
+	w	Str	sendHandleMessage
+	w	Str	sendCancelMessage
+com.lab126.sph
+com.doppler.gadgetsd.gadget
+	w 	Str	debugForceOTAOnGadget
+	r	Str	version	[UNKNOWN]
+	w	Str	otaCmd
+	w	Int	debugButtonPressedOnGadget
+	r	Str	dsn	[UNKNOWN]
+	r	Str	battery	[UNKNOWN]
+	rw	Has	debugConnectedGadgets	[*NOT SHOWN*]
+	rw	Has	debugPairedGadgets	[*NOT SHOWN*]
+com.doppler.cmbd.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.spotify
+	r 	Str	album	[Folge 1 & 2]
+	w	Str	playUri
+	w	Int	previous
+	w	Str	loginPassword
+	w	Int	pause
+	w	Int	seek
+	r	Str	state	[stopped]
+	r	Int	trackDuration	[208533]
+	r	Int	volume	[48]
+	rw	Int	setBitrate	[0]
+	w	Str	loginOAuth
+	rw	Int	position	[93173]
+	r	Str	track	[Folge 1&2 - Kapitel 1]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	r	Str	currentUser	[mich21050]
+	rw	Str	loginBlob	[]
+	rw	Str	logMask	[0x0fff0000]
+	w	Int	loginDefault
+	r	Int	isActiveDevice	[0]
+	w	Int	logout
+	r	Str	artist	[Violetta]
+	w	Int	play
+	w	Int	setVolume
+	r	Int	isLoggedIn	[1]
+	w	Int	next
+	w	Int	repeat
+	w	Int	shuffle
+com.doppler.whatify
+	r 	Str	album	[]
+	w	Str	playUri
+	w	Int	previous
+	w	Str	loginPassword
+	w	Str	pause
+	w	Int	seek
+	r	Str	state	[stopped]
+	r	Str	track	[]
+	r	Int	volume	[0]
+	rw	Int	setBitrate	[0]
+	w	Int	sendDataWHAD
+	w	Str	loginOAuth
+	rw	Int	position	[0]
+	w	Str	sendAlexaMessage
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	r	Str	currentUser	[]
+	rw	Str	loginBlob	[]
+	rw	Str	logMask	[0x0fff0000]
+	w	Int	loginDefault
+	r	Int	trackDuration	[0]
+	r	Int	isActiveDevice	[0]
+	w	Int	logout
+	r	Str	artist	[]
+	w	Str	play
+	w	Int	setVolume
+	r	Int	isLoggedIn	[0]
+	w	Int	next
+	w	Int	repeat
+	w	Int	shuffle
+com.doppler.remoted.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.whatify.conductor
+	rw 	Has	sendPauseResumeMessage	[*NOT SHOWN*]
+	rw	Has	alexaMessage	[*NOT SHOWN*]
+	w	Str	sendHandleMessage
+	w	Str	sendCancelMessage
+com.doppler.conductor.bt.hfp.conductor
+	rw 	Has	sendPauseResumeMessage	[*NOT SHOWN*]
+	rw	Has	alexaMessage	[*NOT SHOWN*]
+	w	Str	sendHandleMessage
+	w	Str	sendCancelMessage
+com.doppler.alarmd
+	rw 	Str	AlarmdStarted	[true]
+	r	Str	ListAlerts	[{"key":"TimedNotificationState","notifications":[]}]
+	rw	Str	inDND	[false]
+	rw	Str	AlertTimedEvent	[[]]
+	w	Str	Acknowledge
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	rw	Str	NoticesEarconEnabled	[false]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Str	Status	[None]
+	rw	Str	Notices	[None]
+com.doppler.speaker.event
+	rw 	Str	logMask	[0x0fff0000]
+	r	Str	audioOutput	[local]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+com.doppler.conductor.conductor
+	rw 	Int	protocolTrace	[0]
+	rw	Int	systemActivity	[0]
+	rw	Int	activatePowersaveMode	[0]
+	rw	Int	dialogSessionState	[0]
+	w	Str	sendHandleMessage
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	w	Str	sendCancelMessage
+	rw	Int	activityOverBTmediaLocalStop	[0]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Has	sendPauseResumeMessage	[*NOT SHOWN*]
+	rw	Int	streamInProgress	[0]
+	rw	Has	alexaMessage	[*NOT SHOWN*]
+	rw	Has	sendMessageHandled	[*NOT SHOWN*]
+	w	Str	systemStop
+	rw	Int	mixingBehavior	[1]
+org.ofono
+com.doppler.audio
+	r 	Str	latency	[Latency Mic 16  Speak 32]
+	rw	Int	rawVolume	[123]
+	w	Str	inject_audio
+	w	Int	capture
+	w	Int	WHAMode
+	w	Int	nrResParam
+	rw	Int	EqualizerLed	[0]
+	rw	Str	micpower	[51.139734 dB]
+	rw	Int	DSP_mics_mute	[0]
+	rw	Str	logLevel	[Current log level=unknown
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	w	Str	debug
+	w	Int	traitReport
+	rw	Str	logMask	[0x0f7f0000]
+	rw	Str	mode	[default]
+	rw	Int	speakerSelect	[1]
+com.lab126.system
+	rw 	Str	oobeComplete	[true]
+	rw	Str	booting	[complete]
+	rw	Str	deviceHasTime	[true]
+	w	Str	reboot
+	rw	Str	wifiOnce	[]
+	rw	Str	lineinComplete	[]
+	rw	Str	btPairingComplete	[]
+	r	Str	useProductName	[1
+]
+	rw	Str	forceUpdateOverride	[]
+	rw	Str	updateTriggeredBoot	[no]
+	rw	Str	dhcpAddressGiven	[none]
+com.doppler.player.conductor
+	rw 	Has	sendPauseResumeMessage	[*NOT SHOWN*]
+	rw	Has	alexaMessage	[*NOT SHOWN*]
+	w	Str	sendHandleMessage
+	w	Str	sendCancelMessage
+com.doppler.spotify.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.hallo.conductor
+	rw 	Has	sendPauseResumeMessage	[*NOT SHOWN*]
+	rw	Has	alexaMessage	[*NOT SHOWN*]
+	w	Str	sendHandleMessage
+	w	Str	sendCancelMessage
+com.lab126.phd
+	rw 	Str	logMask	[0x0fff0000]
+	w	Str	newSPHSchedule
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+com.doppler.conductor.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.ubuntu.Upstart
+com.doppler.conductor.bt.hfp
+com.doppler.settingsd.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.ledd
+	rw 	Str	BeamPatternOff	[_active-no-point]
+	rw	Str	IndicatorLightColor	[white]
+	rw	Int	Restarting	[0]
+	rw	Str	Pattern	[off]
+	rw	Int	AlsBrightnessCap	[100]
+	rw	Int	AlsLedGain	[51]
+	rw	Str	BeamPatternOn	[dialog-active]
+	rw	Int	AlsMinLux	[0]
+	rw	Int	AnimationRate	[100]
+	w	Int	Volume
+	rw	Int	AlsLedEnabled	[1]
+	rw	Int	AlsRespCoef3	[6666]
+	rw	Int	AlsRespCoef2	[-13499]
+	rw	Int	AlsRespCoef1	[7783]
+	rw	Int	AlsRespCoef0	[49]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	rw	Int	IndicatorLightFrequency	[0]
+	rw	Int	AlsPauseSecs	[0]
+	rw	Str	BeamPattern	[off]
+	rw	Str	logMask	[0x0fff0000]
+	w	Int	discoStyle
+	rw	Int	AlsMuteTransBright	[50]
+	rw	Int	AlsSampleRate	[20]
+	rw	Int	AlsMaxLux	[0]
+	rw	Int	AlsIndicatorGainFloor	[10]
+	rw	Int	Notices	[0]
+	rw	Int	AlsMuteTransDim	[40]
+	rw	Int	AlsResponseTime	[3]
+	rw	Int	BeamDirection	[10]
+com.doppler.buttond
+	rw 	Int	muteState	[7]
+	w	Str	fakeButton
+	rw	Str	logMask	[0x0fff0000]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+com.doppler.p2p
+	r 	Int	APState	[0]
+	r	Int	APStateReason	[0]
+	w	Str	setDiagsMonitoring
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	rw	Str	logMask	[0x0fff0000]
+	w	Int	shutdownAP
+	w	Int	startupAP
+	rw	Int	Timeout	[0]
+com.doppler.whad
+	w 	Str	wifiPopupDone
+	rw	Str	timeSyncParams	[1240537062839538:910672827136294:29.853147]
+	rw	Int	distributionMasterScoreOverride	[-1]
+	r	Int	isAudioDistributionMaster	[0]
+	rw	Str	timeSyncThrottle	[1:40]
+	r	Str	clusterId	[]
+	r	Int	disableSingletonSpotify	[0]
+	r	Str	currentLocalAudioConfig	[{"config":1}]
+	r	Str	clusterName	[]
+	rw	Has	setClusterVolume	[*NOT SHOWN*]
+	rw	Int	timeMasterScoreOverride	[-1]
+	r	Int	isForceModeEnabled	[0]
+	r	Str	currentClusterAudioConfig	[]
+	w	Str	wirelessOn
+	r	Str	clusterAudioInfo	[{"clusterAudioInfo":[]}]
+	rw	Str	timeSyncRoundRobinParamsOverride	[-1:-1:-1:-1]
+	r	Str	localCluster	[======= WHAD DUMP =======
+WHAD Protocol Version: 0.2
+Loggable DSN: XX0BXH
+Time Master: XX1HGK
+Discovery info consistency hash: cdaf703ba34ee0871f3822f0521c0c383a7d247f
+Local clusters count:1
+
+-----Cluster: [REDACTED]-----
+Cluster Id: 58c202758651406ead5c7495125b4aa3
+Cluster type: TIME_DOMAIN_CLUSTER
+Features:
+ADM role: false
+ADM: XX0HK3
+Speaker for cluster role: false
+Speaker for cluster: XX3EEV
+Cluster membership
+	Device: XX0BXH
+	Device Health Status: 0
+	ADM score: 5
+	TimeMaster score: 5
+
+	Device: XX1HGK
+	Device Health Status: 0
+	ADM score: 180
+	TimeMaster score: 200
+
+	Device: XX3EEV
+	Device Health Status: 0
+	ADM score: 170
+	TimeMaster score: 8
+
+	Device: XX0HK3
+	Device Health Status: 0
+	ADM score: 250
+	TimeMaster score: 200
+
+----- AdaptiveQualityManager -----
+target quality: 1
+current quality: 1
+----- WakeLockManager -----
+Held whadlib wakelocks:
+  ADMQueue: 0
+  ControlPlaneServer: 0
+  DCMQueue: 1
+  LowPrioSteadyTimerQueue: 0
+  ProactiveVisibilityThread: 0
+  TimeSyncClient: 1
+  VerifyDiscoveryInfoConsistency: 0
+  VolumeQueue: 0
+  WatchdogSteadyTimerQueue: 0
+
+======= END WHAD DUMP =======
+]
+	r	Int	isPlaying	[0]
+	r	Int	WhaBtEnabled	[0]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	r	Int	channelMode	[0]
+	r	Int	currentChannelMode	[0]
+	rw	Str	lineOutPlayAtOffset	[0]
+	rw	Int	startTimeDelayMS	[1000]
+	rw	Int	whaPlayerState	[0]
+	rw	Str	playAtOffset	[-7527000]
+	r	Int	clusterVolume	[-1]
+	r	Str	clusterData	[{"clusterData":[]}]
+	r	Int	isSpeakerForCluster	[0]
+	w	Str	clusterPlayUri
+	w	Str	captivePortalResponse
+com.doppler.controld.DistributedDuckingHandler.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.audio.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.davsd
+	w 	Str	request
+com.doppler.audioencoderd
+	rw 	Int	encodingOn	[1]
+	w	Str	openASRStream
+	rw	Int	audioEncoderState	[0]
+	rw	Str	audioInitiator	[WAKE_WORD]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Str	voiceRequestId	[e31f9ef0-80a8-49d2-96ae-639476be087b]
+	w	Str	closeASRStream
+	rw	Int	compressionOn	[1]
+com.doppler.player
+	r 	Str	ContentId	[]
+	w	Str	Control
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	w	Str	Rate
+	w	Int	Seek
+	r	Str	URLPlaybackState	[{"key":"URLPlaybackState","offsetInMilliseconds":"0","volume":48,"muted":false,"playerActivity":"IDLE","clientIdentifier":""}]
+	rw	Int	AudioPlayerState	[0]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Str	URI	[]
+	w	Str	File
+com.lab126.DeviceAuthenticationService
+	r 	Str	getLinkCode	[]
+	w	Str	registerDeviceWithPreauthCode
+	w	Int	checkLinkCode
+	w	Str	wifiPopupDone
+	w	Str	wirelessOn
+	w	Str	captivePortalResponse
+	w	Int	installCredentials
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	w	Str	registerDevice
+	w	Int	createLinkCode
+	rw	Str	logMask	[0x0fff0000]
+	w	Int	refreshCredentials
+	rw	Int	installNoStateCredentialsDisabled	[0]
+	r	Int	isRegistered	[1]
+	r	Str	userID	[amzn1.account.AHUQP2PVVJGH6IXWWGVZ2PREUJNA]
+	r	Int	hasCredentials	[1]
+	w	Str	handleToDoItem
+	w	Int	deregisterDevice
+	r	Str	deviceName	[Michael's Echo]
+com.doppler.homeautod
+	rw 	Int	enableTestMediator	[0]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Int	enableUDPController	[1]
+	rw	Int	HttpResponseSizeLimit	[16376]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+com.doppler.statd
+	rw 	Str	logMask	[0x0fff0000]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+com.doppler.alexad.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.controld.OOBETutorialModeHandler.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.lab126.cmd
+	w 	Str	ensureConnection
+	r	Str	activeInterface	[wifi]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	rw	Has	interfaceProperties	[*NOT SHOWN*]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Has	disableInterfaces	[*NOT SHOWN*]
+	rw	Int	wirelessEnable	[1]
+	rw	Has	availableInterfaces	[*NOT SHOWN*]
+	rw	Int	enableManualMode	[0]
+	rw	Int	smsRecvRequired	[1]
+com.doppler.alexaSpeechPlayer
+	r 	Str	BargeInVoiceRequestId	[fbb701fa-ef93-4cd9-aa06-e78aceb23252:ACTIVE]
+	r	Str	VoiceState	[{"@class":"com.amazon.dee.doppler.payload.event.state.AlexaVoiceState","key":"AlexaVoiceState","audioContentReferenceId":"G090LV0363720BXH#AB72C64C86AW2#1d3f21a8-0dae-4e02-a0fc-b42a98421ba7:Notifications#Summary446e6472-941c-43db-bf01-7d75210f92c7","offsetInMilliseconds":"7824","playerActivity":"FINISHED","audioCategory":"ACTIVE","clientIdentifier":"Domain:Alexa:Notification"}]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Int	TTSPlayerState	[0]
+	w	Str	Control
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	rw	Int	IsTTSSolicited	[1]
+com.doppler.metricsCollector
+	rw 	Str	logMask	[0x0fff0000]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+com.lab126.wifid
+	rw 	Has	cmIntfInfo	[*NOT SHOWN*]
+	r	Str	signalStrength	[5/5
+]
+	rw	Int	enable	[1]
+	w	Int	hotSpotDBDownloadStatus
+	r	Str	711	[********* 2- Connection *********
+2.1 MAC: 50:F5:DA:96:0D:7A
+2.2 Wireless: On(1)
+2.3 AP: Heizung-WiFi (f4:92:bf:2e:42:7b)
+2.3.1   Signal: 5/5
+2.3.2   Captive: No(0)
+2.3.3   Security: WPA2-PSK
+2.3.4   Channel: 36
+2.6 Country: 00
+
+********* 3- Networks *********
+3.1   Heizung-WiFi	0	[WPA2-PSK][CCMP]	(6)			 EAP: [, , ]	 Freq: [5180]	 TunedFor5G: [0]	 TunedFor2G: [0]
+********* 4- Interface *********
+4.1 IP        : 192.168.1.61
+4.2 Netmask   : 255.255.255.0
+4.3 Broadcast : 192.168.1.61
+4.4 Gateway   : 192.168.1.1
+4.5 Config    : DHCP
+4.6 DNS       : 192.168.1.1, 8.8.8.8, 208.67.220.220, 
+4.7 Sponsored    : No(0)
+
+********* 5- DHCP *********
+udhcpc (v1.19.4) started
+Sending discover...
+Sending select for 192.168.1.61...
+Lease of 192.168.1.61 obtained, lease time 86400
+deleting default gateway for wlan0
+adding default gateway for wlan0 - wlan0
+
+]
+	r	Str	macSecret	[R8U83X4K7TYE2K93EFF7]
+	w	Str	cmConnect
+	rw	Int	networkBounce	[0]
+	r	Int	initComplete	[1]
+	w	Str	cmCheckConnection
+	rw	Int	diagsMonitoringPeriod	[300000]
+	r	Int	cmIntfInUse	[1]
+	r	Str	manufacturerCode	[R8U83X4K7TYE2K93EFF7]
+	r	Str	CountryCodeList	[WW AL DZ AR AM AW AU AT AZ BH BD BB BY BE BZ BO BA BR BN BG KH CA CL CN CO CR HR CY CZ DK DO EC EG SV EE FO FI FR GB GE DE GR GL GD GU GT HT HN HK HU IS IN ID IR IQ IE IL IT JM JP JO KZ KE KP KR KW LV LB LY LI LT LU MO MK MW MY MT MX MC MA NP NL AN NZ NI NO OM PK PA PY PE PH PL PT PR QA RO RU RW SA RS ME SG SK SI ZA ES LK SE CH SY TW TH TT TN TR AE UG UA US UY UZ VE VN YE ZW]
+	r	Str	macAddress	[50:F5:DA:96:0D:7A]
+	rw	Has	profileData	[*NOT SHOWN*]
+	rw	Has	netConfig	[*NOT SHOWN*]
+	w	Str	cmDisconnect
+	w	Str	setDiagsMonitoring
+	rw	Str	logMask	[0x0fff0000]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	r	Int	scanListCount	[11]
+	rw	Has	cmNWProperties	[*NOT SHOWN*]
+	rw	Has	createProfile	[*NOT SHOWN*]
+	r	Str	scanState	[idle]
+	r	Str	rssi	[-60]
+	w	Str	cmConnMode
+	r	Int	connectedToTetheredNetwork	[0]
+	r	Str	feelingLuckyProfile	[Heizung_Guest-WiFi]
+	rw	Has	currentEssid	[*NOT SHOWN*]
+	r	Str	currentBssid	[f4:92:bf:2e:42:7b]
+	w	Str	deleteProfile
+	rw	Str	CountryCode	[WW]
+	r	Str	cmState	[CONNECTED]
+	rw	Has	createNetConfig	[*NOT SHOWN*]
+	w	Str	scan
+	rw	Has	scanList	[*NOT SHOWN*]
+	r	Int	profileCount	[1]
+com.doppler.whad.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.alarmd.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.lab126.tphv3
+	r 	Int	debugTphv3StillHereCount	[12212]
+	r	Int	debugTphv3UdpTphCount	[0]
+	r	Int	debugTphv3State	[2]
+	r	Int	debugTphv3SessionCount	[1]
+	r	Int	debugTphv3Supported	[1]
+	r	Int	debugTphv3SilentPeriod	[27]
+	r	Int	debugTphv3SessionTimeout	[28]
+com.doppler.alexad
+	w 	Int	protocolTrace
+	r	Str	thinkingModeRequestId	[]
+	rw	Int	connectionState	[1]
+	r	Str	asrStreamId	[AB72C64C86AW2:1.0/2022/01/10/19/DEVICE_UNSPECIFIED/57:43::TNIH_2V.bf026f05-7207-4f1e-8446-f94a621638f6LPM]
+	w	Str	thinkingModeIgnoreRequestId
+	w	Str	wifiPopupDone
+	w	Str	wirelessOn
+	w	Int	reconnectionState
+	w	Str	captivePortalResponse
+	rw	Int	thinkingModeState	[0]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	rw	Str	logMask	[0x0fff0000]
+	w	Int	cancelThinkingMode
+	rw	Has	sendClientMessage	[*NOT SHOWN*]
+	w	Str	stopThinkingMode
+	rw	Has	sendMessage	[*NOT SHOWN*]
+com.doppler.btmd.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.smarthomed
+	r 	Int	AEDCloudIndicator	[0]
+	rw	Str	logMask	[0xffff8000]
+	r	Str	ModeIndicatorSecurityMode	[DISABLED]
+	rw	Int	enableTest	[0]
+	rw	Str	logLevel	[Current log level=unknown
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+com.doppler.spotify.conductor
+	rw 	Has	sendPauseResumeMessage	[*NOT SHOWN*]
+	rw	Has	alexaMessage	[*NOT SHOWN*]
+	w	Str	sendHandleMessage
+	w	Str	sendCancelMessage
+com.doppler.audioencoderd.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.wwmd
+	w 	Int	updateFingerprints
+com.doppler.homeautod.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.conductor.bt.media
+	r 	Str	state	[idle]
+com.doppler.earconPlayer
+	rw 	Str	loopFile	[]
+	rw	Str	playFiles
+	rw	Str	stop
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	rw	Str	playFile	[]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Int	EarconPlayerState	[0]
+	rw	Str	loopFiles
+	rw	Str	endLoop
+	rw	Str	setPlayList
+com.doppler.OTAUpdate
+	r 	Int	isForceUpdate	[0]
+	r	Str	firmwareVersionCode	[669701320]
+	r	Str	firmwareStatus	[Waiting]
+	rw	Int	uioStep	[0]
+	rw	Int	uioState	[0]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	rw	Str	updateURL	[]
+	rw	Int	updatePriority	[1]
+	r	Str	firmwareVersionName	["Device X.X.X(669701320)"]
+	r	Int	rebootNecessary	[0]
+	rw	Str	logMask	[0x0fff0000]
+com.doppler.idled.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.btmd
+	rw 	Int	traceLevel	[-1]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Int	BTSystem	[2]
+	rw	Str	traceOutput	[]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+com.doppler.player.whad
+	w 	Str	sendStopCluster
+	rw	Has	sendResumeCluster	[*NOT SHOWN*]
+	w	Str	sendClearCluster
+	w	Str	sendHandleMessage
+	w	Str	sendCancelMessage
+	rw	Has	sendHandleAtMessage	[*NOT SHOWN*]
+	rw	Has	sendPauseResumeMessage	[*NOT SHOWN*]
+	rw	Has	alexaMessage	[*NOT SHOWN*]
+	rw	Has	sendMessageHandled	[*NOT SHOWN*]
+com.doppler.audiod.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.btmd.alexaRequests
+com.doppler.hallo
+	r 	Str	callAccepted	[]
+	w	Str	printCallStats
+	r	Int	sendPresence	[0]
+	w	Int	configureCommsRequest
+	r	Int	alexaInCall	[1]
+	r	Int	callUxSoundOn	[0]
+	w	Int	callStatsTimer
+	r	Str	callState	[INACTIVE]
+	r	Int	isDropIn	[0]
+	r	Int	ringTTSReady	[0]
+	r	Str	sipCallType	[none]
+	r	Int	isCheckIn	[0]
+	w	Int	hangup
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	w	Int	startRingTTS
+	rw	Str	logMask	[0x0fff0000]
+	r	Int	ignoreCall	[0]
+	r	Int	overrideDefaultRingtone	[0]
+	r	Str	sipClientState	[{"key":"SipClientState","clientIdentifier":"Domain:Application:Communications:Calling","state":"{\"callState\":\"INACTIVE\",\"deviceSentAbsoluteTimestamp\":\"\",\"deviceSentRelativeTimestamp\":\"\",\"sipRegistered\":true}"}]
+	r	Int	isCallee	[0]
+	r	Int	callUxLightsOn	[1]
+com.lab126.transfer
+	rw 	Has	obliterate	[*NOT SHOWN*]
+	rw	Has	modify	[*NOT SHOWN*]
+	rw	Has	dequeue	[*NOT SHOWN*]
+	rw	Has	send_status	[*NOT SHOWN*]
+	rw	Has	dump_queues	[*NOT SHOWN*]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	rw	Has	request_upload	[*NOT SHOWN*]
+	rw	Has	get_info	[*NOT SHOWN*]
+	rw	Str	logMask	[0x0fff0000]
+	rw	Has	request_download	[*NOT SHOWN*]
+com.doppler.whatify.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.smarthomed.alexa
+	rw 	Has	alexaMessage	[*NOT SHOWN*]
+com.doppler.acd
+	w 	Str	captivePortalResponse
+	w	Str	wifiPopupDone
+	rw	Str	countryCode	[AT]
+	rw	Str	logMask	[0x0fff0000]
+	w	Str	wirelessOn
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+com.doppler.randomd
+	rw 	Str	logMask	[0x0fff0000]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+com.lab126.devicemetrics
+	w 	Int	pushHighPriorityMetrics
+	w	Int	pushAllMetrics
+	rw	Str	logMask	[0x0fff0000]
+	rw	Has	transferProgressHandler	[*NOT SHOWN*]
+	w	Str	refreshCache
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	w	Str	pushMetricsByClass
+com.doppler.asr
+	w 	Str	Restart
+	rw	Str	AcousticEventBroadcast	[Disabled]
+	r	Str	AEDECIDs	[1]
+	w	Str	IgnoreRecognitionRange
+	r	Str	Davs	[No]
+	r	Str	Ready	[Yes]
+	rw	Str	AcousticEventDetection	[Disabled]
+	rw	Str	AcousticEventType	[babyCryDisabled,beepingApplianceDisabled,carbonMonoxideSirenDisabled,coughDisabled,dogBarkDisabled,glassBreakDisabled,humanPresenceDisabled,runningWaterDisabled,smokeAlarmDisabled,smokeSirenDisabled,snoreDisabled,waterSoundsDisabled]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
+	r	Str	AcousticEventSupportedTypes	[babyCry,beepingAppliance,carbonMonoxideSiren,cough,dogBark,glassBreak,humanPresence,runningWater,smokeAlarm,smokeSiren,snore,waterSounds]
+	rw	Str	Broadcast	[Enabled]
+	rw	Str	logMask	[0x0fff0000]
+	r	Str	State	[waitingForWakeword]
+	rw	Str	StopBroadcast	[Disabled]
+	r	Str	FingerprintECIDs	[1,2]
+	rw	Str	WWModel	[de-DE/ALEXA]
+com.doppler.btmd.metrics
+org.pulseaudio.Server
+com.doppler.whad.whad
+	w 	Str	sendStopCluster
+	rw	Has	sendResumeCluster	[*NOT SHOWN*]
+	w	Str	sendClearCluster
+	w	Str	sendHandleMessage
+	w	Str	sendCancelMessage
+	rw	Has	sendHandleAtMessage	[*NOT SHOWN*]
+	rw	Has	sendPauseResumeMessage	[*NOT SHOWN*]
+	rw	Has	alexaMessage	[*NOT SHOWN*]
+	rw	Has	sendMessageHandled	[*NOT SHOWN*]
+com.doppler.rawencoder
+	rw 	Str	logMask	[0x0fff0000]
+	rw	Str	logLevel	[Current log level=info
+(Possible transient levels: all, perf, debug[9-0], info, warn, error, crit, none)
+(Possible persistent levels: p_all, p_perf, p_debug[0-9], p_info, p_warn, p_error, p_crit, p_none)]
